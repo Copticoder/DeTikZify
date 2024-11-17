@@ -1,13 +1,18 @@
 import random
 import json
-from math import log, sqrt
-
+import numpy as np
 class Node:
     def __init__(self, state):
         self.state = state
         self.win_value = 0
         self.policy_value = None
         self.visits = 0
+        ## DNG-MCTS Parameters 
+        self.mu_s = 0
+        self.lambda_s = 0.01
+        self.alpha_s = 1
+        self.beta_s = 100
+        ###
         self.parent = None
         self.children = []
         self.expanded = False
@@ -17,11 +22,38 @@ class Node:
 
     def update_win_value(self, value):
         self.win_value += value
+        self.alpha_s += 0.5
+        self.beta_s += (self.lambda_s * (value - self.mu_s)**2 / (self.lambda_s + 1)) / 2
+        self.mu_s = (self.lambda_s * self.mu_s + value) / (self.lambda_s + 1)
+        self.lambda_s += 1
+
         self.visits += 1
 
         if self.parent:
             self.parent.update_win_value(value)
 
+    def value_sampling(self, s_bar, sampling=True):
+        if sampling:
+            tao = np.random.gamma(s_bar.alpha_s, 1 / s_bar.beta_s)
+            std_dev = np.sqrt(1 / (tao * s_bar.lambda_s))
+            mu = np.random.normal(s_bar.mu_s, std_dev)
+            return mu
+        return s_bar.mu_s
+    
+    def q_value(self, action, sampling= True):   
+        reward += self.value_sampling(self.children[s_bar], sampling)
+        return R_s_a+reward
+        
+    def best_child(self, action_space, **kwargs):
+        sampling = kwargs.get('sampling', True)
+        discount_factor = kwargs.get('discount_factor', 0.95)
+        action_values = []
+        for action in range(action_space):
+            q_value = self.q_value(action, discount_factor, sampling)
+            action_values.append(q_value)
+        selected_action = np.argmax(action_values)
+        return selected_action
+    
     def update_policy_value(self, value):
         self.policy_value = value
 
@@ -52,7 +84,7 @@ class Node:
         discovery_operand = (
             self.discovery_factor
             * (self.policy_value or 1)
-            * sqrt(log(self.parent.visits) / (self.visits or 1))
+            * np.sqrt(np.log(self.parent.visits) / (self.visits or 1))
         )
         
         if self.is_widen_node:
