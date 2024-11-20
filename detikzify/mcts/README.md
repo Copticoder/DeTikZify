@@ -1,6 +1,6 @@
 A Python3 library for running a [Monte Carlo tree search](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search), either traditionally by drilling down to end game states or with expert policies as might be provided by a neural network.
 
-Adapted from **Version:** 1.3.1 of [ImparaAI/monte-carlo-tree-search](https://github.com/ImparaAI/monte-carlo-tree-search).
+Adapted from **Version:** 1.3.1 of [ImparaAI/monte-carlo-tree-search](https://github.com/ImparaAI/monte-carlo-tree-search). This uses DNG-MCTS instead of UCT for calculating state values. DNG-MCTS Paper [Bayesian Mixture Modeling and Inference based Thompson Sampling in Monte-Carlo Tree Search](https://proceedings.neurips.cc/paper_files/paper/2013/file/846c260d715e5b854ffad5f70a516c88-Paper.pdf)
 
 # Monte Carlo tree search basics
 
@@ -21,7 +21,7 @@ As the user of this library, you only have to provide:
 
 - A function that finds the direct children of each search tree node (called the **`child_finder`**)
 - A function for evaluating nodes for end state outcomes (called the **`node_evaluator`**)
--- *(Not necessary with neural network)*
+  -- *(Not necessary with neural network)*
 
 # Usage
 
