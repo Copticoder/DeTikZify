@@ -1,0 +1,20 @@
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:02,  1.36it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:00<00:00,  3.87it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:01<00:00,  4.85it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:01<00:00,  4.55it/s]
+Traceback (most recent call last):
+  File "/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/peft/config.py", line 205, in _get_peft_type
+    config_file = hf_hub_download(
+  File "/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 106, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 154, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.errors.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/scratch/oe2015/ai_project/DeTikZify/detikzify/evaluate/final_model_checkpoint_1024_captions_noquant_vision/adapter_model.safetensors'. Use `repo_type` argument if needed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/scratch/oe2015/ai_project/DeTikZify/detikzify/evaluate/eval_vision.py", line 522, in <module>
+    model = PeftModel.from_pretrained(
+  File "/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/peft/peft_model.py", line 484, in from_pretrained
+    PeftConfig._get_peft_type(
+  File "/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/peft/config.py", line 211, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at '/scratch/oe2015/ai_project/DeTikZify/detikzify/evaluate/final_model_checkpoint_1024_captions_noquant_vision/adapter_model.safetensors'

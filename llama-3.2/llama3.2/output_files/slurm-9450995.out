@@ -1,0 +1,1753 @@
+Unused kwargs: ['bnb_8bit_quant_type', 'bnb_8bit_compute_dtype', 'bnb_8bit_use_double_quant']. These kwargs are not used in <class 'transformers.utils.quantization_config.BitsAndBytesConfig'>.
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:02<00:11,  2.89s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:03<00:01,  1.22it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  2.28it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.54it/s]
+/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: Metric `Kernel Inception Distance` will save all extracted features in buffer. For large datasets this may lead to large memory footprint.
+  warnings.warn(*args, **kwargs)  # noqa: B028
+trainable params: 0 || all params: 10,682,017,315 || trainable%: 0.0000
+LoRA model loaded successfully!
+bbbbb
+cuda:0
+Length of the updated dataset: 560
+
+system
+
+Today Date: 17 Nov 2024
+
+You are a helpful AI that can generate tikz code from images.
+user
+
+This is a picture of a scientific figure Generate LaTeX code that draws this scientific figure using TikZ. Ensure that the LaTeX code is self-contained and does not require any packages except TikZ-related imports. Don't forget to include \usepackage{tikz}! I understand that this is a challenging task, so do your best. Return your result in a ```latex code block.
+assistant
+
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{positioning,calc}
+
+\begin{document}
+
+\begin{tikzpicture}[node distance=1cm]
+  \node (a) {global index};
+  \node[below of=a] (b) {interior index};
+  \node[below of=b] (c) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=c] (d\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=d\x] (e\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=e\x] (f\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=f\x] (g\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=g\x] (h\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=h\x] (i\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=i\x] (j\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=j\x] (k\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=k\x] (l\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=l\x] (m\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=m\x] (n\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=n\x] (o\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=o\x] (p\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=p\x] (q\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=q\x] (r\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=r\x] (s\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=s\x] (t\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=t\x] (u\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=u\x] (v\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=v\x] (w\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=w\x] (x\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=x\x] (y\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=y\x] (z\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=z\x] (a\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4}
+  \node[below of=a\x] (b\x) {$\cdots$};
+
+  \foreach \x in {0,1,2,3,4
+########################################################
+Error: Could not locate LaTeX code markers.
+Processing sample 1/560 - Caption: The image depicts a segmented line representing a discretized interval from \( x = 0 \) to \( x = 1 \). The interval is divided into \( N \) segments, each of length \( \Delta x = 1/N \). The points along the line are labeled with their corresponding positions \( x = m \Delta x \) for \( m = 0, 1, 2, \ldots, N \). Below the line, two rows of indices are shown: the global index \( j \) and the interior index \( k \). The global index \( j \) ranges from 1 to \( N+1 \), while the interior index \( k \) ranges from 1 to \( N-1 \). The correspondence between the global and interior indices is indicated, with specific points highlighted such as \( x = 0 \) (global index \( j = 1 \)), \( x = \Delta x \) (global index \( j = 2 \), interior index \( k = 1 \)), and so on, up to \( x = 1 \) (global index \( j = N+1 \)).
+TEX Edit Distance for sample 1: 0.8007503747940063
+CrystalBLEU Score for sample 1: 0
+Sample 1 processing time: 53.05 seconds
+
+Processing sample 2/560 - Caption: This image depicts a directed graph with six nodes and various directed edges, including both solid and dashed lines. The nodes are labeled as follows: \( V_1 (H, a) \), \( V_2 (x) \), \( V_3 (\tilde{x}) \), \( V_4 (L) \), \( V_5 (L) \), and \( V_6 (G, \tilde{c}) \). The edges are as follows:
+
+1. A solid edge from \( V_1 \) to \( V_2 \).
+2. A solid edge from \( V_1 \) to \( V_3 \).
+3. A solid edge from \( V_2 \) to \( V_4 \).
+4. A solid edge from \( V_3 \) to \( V_4 \).
+5. A solid edge from \( V_4 \) to \( V_6 \).
+6. A solid edge from \( V_5 \) to \( V_6 \).
+7. A dashed edge from \( V_1 \) to \( V_4 \).
+8. A dashed edge from \( V_2 \) to \( V_5 \).
+9. A dashed edge from \( V_3 \) to \( V_6 \).
+10. A dashed edge from \( V_4 \) to \( V_5 \).
+
+The nodes are arranged in a roughly horizontal layout, with \( V_1 \) on the left, \( V_6 \) on the right, and the other nodes positioned between them. The edges are directed and some are curved to avoid overlapping with other edges.
+TEX Edit Distance for sample 2: 0.8213337063789368
+CrystalBLEU Score for sample 2: 0
+Sample 2 processing time: 52.98 seconds
+
+Processing sample 3/560 - Caption: This image is a line plot with three datasets: Multi-News, SamSUM, and CNN/DM. The x-axis represents the dataset size on a logarithmic scale, ranging from \(10^3\) to \(10^5\). The y-axis represents the average value, ranging from 0.5 to 0.7. The plot includes three lines: a blue line with square markers for Multi-News, a red line with triangle markers for SamSUM, and a green line with star markers for CNN/DM. The legend is located inside the plot area, towards the right side. The grid lines are visible for better readability.
+TEX Edit Distance for sample 3: 0.6073482036590576
+CrystalBLEU Score for sample 3: 0.013702020009914412
+Sample 3 processing time: 30.88 seconds
+
+Processing sample 4/560 - Caption: The image shows a graphical representation of the operation on two structures, Σ(z₁) and Σ(z₂), resulting in a combined structure Σ(z₁) ⊕ Σ(z₁). On the left side, there are two separate structures, each consisting of a circle connected to a smaller circle above it, labeled Σ(z₁) and Σ(z₂) respectively. These structures are combined using the ⊕ operator. On the right side, the resulting structure is shown, which is a larger structure with three levels of circles. The bottom level has two circles, each connected to a smaller circle above it, and these two smaller circles are connected to a single circle at the top. The label Σ(z₁) ⊕ Σ(z₁) is placed below the combined structure.
+TEX Edit Distance for sample 4: 0.6669270992279053
+CrystalBLEU Score for sample 4: 0.025685142162314507
+Sample 4 processing time: 37.64 seconds
+
+Processing sample 5/560 - Caption: The image shows a two-panel plot comparing simulated and theoretical coalescence times under weak and strong selection. The left panel is titled "Coalescence times" and is divided into two regions: weak selection on the left and strong selection on the right. The x-axis is labeled with the selection coefficient (α), ranging from 0 to 1, while the y-axis is labeled with the expected coalescence time (E[T2]) ranging from 0 to 15. The black dots represent simulated data (N = 10^3), and the green curve represents the theoretical values. The right panel, partially visible, seems to follow a similar structure but with different y-axis values.
+TEX Edit Distance for sample 5: 0.6595399975776672
+CrystalBLEU Score for sample 5: 0.0009181537397054328
+Sample 5 processing time: 50.67 seconds
+
+Processing sample 6/560 - Caption: This image consists of two Hasse diagrams side by side. The diagram on the left, labeled \( P \), is a diamond-shaped poset with four elements: \( a \) at the bottom, \( b \) and \( c \) in the middle, and \( d \) at the top. The elements are connected by lines indicating the partial order: \( a \leq b \), \( a \leq c \), \( b \leq d \), and \( c \leq d \).
+
+The diagram on the right, labeled \( \text{Int} \, P \), represents the interval poset of \( P \). It has nine elements, each representing an interval in \( P \): \([a,a]\), \([a,b]\), \([a,c]\), \([b,b]\), \([b,d]\), \([c,c]\), \([c,d]\), \([d,d]\), and \([a,d]\). These intervals are connected by lines indicating the partial order among them. The structure forms a more complex lattice with multiple levels, reflecting the intervals' relationships.
+TEX Edit Distance for sample 6: 0.8420682549476624
+CrystalBLEU Score for sample 6: 3.892605820068306e-06
+Sample 6 processing time: 53.38 seconds
+
+Processing sample 7/560 - Caption: The figure is a line plot showing the impact of batch size on inference speedups. The x-axis represents the batch size, ranging from 1 to 16, while the y-axis represents the speedup, ranging from 1 to 5. Multiple lines, each with different colors and markers, represent different configurations or models. A legend on the top right corner identifies these configurations. A vertical dashed line at batch size 8 highlights a specific point of interest.
+TEX Edit Distance for sample 7: 0.49584147334098816
+CrystalBLEU Score for sample 7: 0.00011250800259164348
+Sample 7 processing time: 36.27 seconds
+
+Processing sample 8/560 - Caption: The image illustrates a sequence of transformations of intersecting lines. 
+
+1. The top part shows a set of horizontal and vertical lines labeled with numbers. The horizontal lines are labeled "n", "n-2", "n-4", ..., "1" from top to bottom, and the vertical lines are labeled "1".
+2. An arrow points downward to the middle part, where the lines are rotated to form an "X" pattern. The lines are labeled similarly, with horizontal lines labeled "1" and "n-2", and vertical lines labeled "1" and "n-6".
+3. Another arrow points downward to the bottom part, where the lines are further transformed into a symmetric "X" pattern. The lines are labeled "1" and "1", with the horizontal lines in black and the diagonal lines in red.
+
+The image can be described in TikZ with the following elements:
+- Horizontal and vertical lines with labels.
+- Rotated lines forming an "X" pattern.
+- Symmetric "X" pattern with different colors for the lines.
+- Arrows indicating the transformation steps.
+TEX Edit Distance for sample 8: 0.654580295085907
+CrystalBLEU Score for sample 8: 0.00033154544297167923
+Sample 8 processing time: 28.10 seconds
+
+Processing sample 9/560 - Caption: This image depicts a triangular plot contained within a rectangular frame. The plot consists of two diagonal lines forming an inverted "V" shape, with tick marks and labels along both lines. The labels are positioned at regular intervals along the lines, indicating specific values. The entire plot is enclosed within a smaller rectangle, which is centered within a larger rectangular border. The larger rectangle appears to be the boundary of the entire figure, while the smaller rectangle serves as the frame for the triangular plot.
+TEX Edit Distance for sample 9: 0.8106427192687988
+CrystalBLEU Score for sample 9: 0.0002995217351895834
+Sample 9 processing time: 52.79 seconds
+
+Processing sample 10/560 - Caption: The image depicts a geometric representation of complex numbers. It shows a series of ellipses increasing in size along the positive real axis, labeled as \(|z|^2\). The ellipses are aligned along a line starting from the origin (0), which is marked by a solid black dot. The x-axis is labeled with \(|z|^2\) to indicate the squared magnitude of the complex number \(z\). The ellipses are positioned at regular intervals along this axis, with their major axes increasing linearly.
+TEX Edit Distance for sample 10: 0.6741920709609985
+CrystalBLEU Score for sample 10: 0.0002603861543206658
+Sample 10 processing time: 6.33 seconds
+
+Processing sample 11/560 - Caption: This image is a line plot depicting the relationship between sentence length and two performance metrics: "Matched Words" and "Exact Sentences." The x-axis represents sentence length, ranging from 0 to 60, while the y-axis represents the proportion, ranging from 0 to 1. Two lines are plotted: a blue line for "Matched Words" and a red line for "Exact Sentences." The blue line starts near the top of the y-axis and remains relatively high, showing a slight downward trend as sentence length increases. The red line starts high but decreases sharply as sentence length increases, approaching zero around a sentence length of 50. A legend in the bottom left corner identifies the blue and red lines. The plot has a title "Performance Metrics vs. Sentence Length" and includes grid lines for better readability.
+TEX Edit Distance for sample 11: 0.4436286389827728
+CrystalBLEU Score for sample 11: 0.0007875737055496394
+Sample 11 processing time: 30.69 seconds
+
+Processing sample 12/560 - Caption: The image consists of three distinct diagrams, each depicting a different colored path with labeled points and segments. 
+
+1. The leftmost diagram is in red and shows a path with points labeled \(a\) and \(b\). The path has a horizontal dashed line segment labeled \(H\) connecting the points. The path starts from a point labeled \(R\) and ends at \(b\).
+
+2. The middle diagram is in black and shows a similar path with points labeled \(a\) and \(b\). The path has a horizontal dashed line segment labeled \(\bar{H}\) connecting the points. The path starts from a point labeled \(\bar{R}\) and ends at \(b\).
+
+3. The rightmost diagram is in blue and shows a path with points labeled \(t(a)\) and \(t(b)\). The path starts from a point labeled \(B'\) and ends at \(t(a)\).
+
+Each diagram features a combination of straight and angled lines, with specific points marked by colored dots. The dashed lines in each diagram indicate a horizontal connection between the points \(a\) and \(b\).
+TEX Edit Distance for sample 12: 0.8057892322540283
+CrystalBLEU Score for sample 12: 0.0005318830438591007
+Sample 12 processing time: 52.81 seconds
+
+Processing sample 13/560 - Caption: This image contains a series of graph transformations labeled \( F_1(n) \) through \( F_{11}(n) \). Each transformation shows a different configuration of nodes and edges, with some nodes labeled with letters (e.g., X, Y) and others with numbers (e.g., 1, 2, 3). The transformations illustrate the progression of the graph structure through various stages:
+
+1. \( F_1(n) \) shows a triangle with nodes 1, 2, and 3 connected in a cycle, and a separate node X connected to node 1.
+2. \( F_2(n) \) shows node X connected to a triangle formed by nodes 1, 2, and 3.
+3. \( F_3(n) \) shows node X connected to a cycle of three nodes labeled 1, 2, and 3.
+4. \( F_4(n) \) shows node X connected to a path of three nodes labeled 1, 2, and 3.
+5. \( F_5(n) \) shows node X connected to a path of four nodes labeled 1, 2, 3, and 4.
+6. \( F_6(n) \) shows node X connected to a path of five nodes labeled 1, 2, 3, 4, and 5.
+7. \( F_7(n) \) shows node X connected to a path of six nodes labeled 1, 2, 3, 4, 5, and 6.
+8. \( F_8(n) \) shows node X connected to a path of seven nodes labeled 1, 2, 3, 4, 5, 6, and 7.
+9. \( F_9(n) \) shows node X connected to a path of eight nodes labeled 1, 2, 3, 4, 5, 6, 7, and 8.
+10. \( F_{10}(n) \) shows node X connected to a path of nine nodes labeled 1, 2, 3, 4, 5, 6, 7, 8, and 9.
+11. \( F_{11}(n) \) shows node X connected to a path of ten nodes labeled 1, 2, 3, 4, 5, 6, 7, 8, 9, and 10.
+
+Each graph transformation is enclosed in an oval or circle, indicating the scope of the transformation. The nodes and edges are clearly labeled to show the progression from one stage to the next.
+TEX Edit Distance for sample 13: 0.851285457611084
+CrystalBLEU Score for sample 13: 0.0001358688695902389
+Sample 13 processing time: 52.96 seconds
+
+Processing sample 14/560 - Caption: The image is a bar chart displaying the number of students on the y-axis and a range of scores on the x-axis. The x-axis is labeled with score intervals, each represented by a blue bar. Two specific score intervals are highlighted with different colors: one in red and one in green. The chart includes a legend at the bottom indicating that the green bar represents "ChatGPT," the red bar represents "BingChat," and the blue bars represent "Estudiantes evaluados." The y-axis is labeled with a logarithmic scale (10^0 to 10^4), and each bar has a numerical value displayed at its top.
+TEX Edit Distance for sample 14: 0.8350451588630676
+CrystalBLEU Score for sample 14: 7.89215420176677e-05
+Sample 14 processing time: 52.76 seconds
+
+Processing sample 15/560 - Caption: The image depicts a graph with 10 vertices arranged in a decagon. Each vertex on the decagon is connected to its adjacent vertices with black edges. Additionally, there is a central vertex connected to all vertices of the decagon with red edges. The vertices are represented by black-filled circles.
+
+This description should help you write the TikZ code for the figure.
+TEX Edit Distance for sample 15: 0.5927419066429138
+CrystalBLEU Score for sample 15: 0.0001029891345814893
+Sample 15 processing time: 8.89 seconds
+
+Processing sample 16/560 - Caption: This image depicts a complex plane diagram with two semicircles centered at the origin. The horizontal axis represents the real part of the complex plane, marked with a "0" at the origin. There are two semicircles with different radii, both centered at the origin and extending upwards. The smaller semicircle is labeled with "it_n" at its highest point, and there are two dots vertically aligned along the imaginary axis, one at the origin and the other at the label "it_n".
+TEX Edit Distance for sample 16: 0.7919646501541138
+CrystalBLEU Score for sample 16: 9.314190485067196e-05
+Sample 16 processing time: 52.76 seconds
+
+Processing sample 17/560 - Caption: This image depicts a sequence of sets \( V_1, V_2, \ldots, V_{\beta+1} \) represented by ellipses. Each set contains points labeled \( v, x_\beta, y_\beta, y_1, x_1, u \). There are directed arrows between these points indicating transitions or connections. A red path labeled \( P_1 \) and a blue dashed path labeled \( P_2 \) connect these points across the sets. The red path \( P_1 \) seems to form a continuous connection through the points \( v, x_\beta, y_\beta, y_1, x_1, u \), while the blue dashed path \( P_2 \) forms a similar connection but with a different trajectory. An arrow pointing to the right indicates progression from \( V_1 \) to \( V_{\beta+1} \).
+TEX Edit Distance for sample 17: 0.8121670484542847
+CrystalBLEU Score for sample 17: 6.453837037204973e-05
+Sample 17 processing time: 52.79 seconds
+
+Processing sample 18/560 - Caption: This image depicts a rectangular region in the \(u\)-\(T\) plane, labeled with boundaries and specific points. The vertical axis is labeled \(u\) and the horizontal axis is labeled \(T\). The rectangle is defined by the points \((1, \epsilon)\), \((T_0, \epsilon)\), \((T_0, A)\), and \((1, A)\). The boundaries of the rectangle are labeled as \(\Gamma_1\), \(\Gamma_2\), \(\Gamma_3\), and \(\Gamma_4\), with arrows indicating the direction along each boundary. The point \((1, \epsilon)\) is marked with dashed lines extending to the axes. The interior of the rectangle is labeled with \(u\).
+TEX Edit Distance for sample 18: 0.49752798676490784
+CrystalBLEU Score for sample 18: 0.00019694834902729287
+Sample 18 processing time: 24.88 seconds
+
+Processing sample 19/560 - Caption: The image consists of two parts. On the left, there is a diagram with vertical lines labeled "B" on both sides, and between them, there are horizontal lines labeled with numbers 3, 2, and dots representing "n+1". On the right, there is a graph with nodes labeled 1, 2, and 3. The central node labeled 3 is connected to nodes labeled 2, which are further connected to nodes labeled 1. The central node 3 is also connected to another node labeled 3, which is connected to nodes labeled 2 and 1, forming a symmetrical structure. An arrow points from the left diagram to the right graph, indicating a transformation from the left structure to the right structure.
+TEX Edit Distance for sample 19: 0.8439515829086304
+CrystalBLEU Score for sample 19: 0.00012614840223991496
+Sample 19 processing time: 52.86 seconds
+
+Processing sample 20/560 - Caption: This image depicts the architecture of a Gated Recurrent Unit (GRU) cell. The main components and their connections are as follows:
+
+1. **Inputs and Outputs:**
+   - Input \( x(t) \) enters from the bottom.
+   - Previous hidden state \( h(t-1) \) enters from the left.
+   - Current hidden state \( h(t) \) exits to the right.
+   - Current output \( y(t) \) exits from the top.
+
+2. **Components:**
+   - Two fully connected (FC) layers, represented by blue rectangles.
+   - Update gate \( z(t) \) and reset gate \( r(t) \).
+   - Element-wise multiplication, represented by circles with a cross (×).
+   - Element-wise addition, represented by circles with a plus (+).
+   - Sigmoid activation functions, represented by the sigmoid curve symbol.
+
+3. **Connections:**
+   - \( x(t) \) and \( h(t-1) \) are inputs to both FC layers.
+   - Outputs of the FC layers are used to compute \( r(t) \) and \( z(t) \).
+   - \( r(t) \) is used to modulate \( h(t-1) \) before passing it to the next FC layer.
+   - The result of the FC layer modulated by \( r(t) \) is combined with \( x(t) \) to compute the candidate hidden state.
+   - The final hidden state \( h(t) \) is computed using a combination of the candidate hidden state and \( h(t-1) \), modulated by \( z(t) \).
+
+This description should help in writing the TikZ code to accurately represent the GRU cell structure.
+TEX Edit Distance for sample 20: 0.826781690120697
+CrystalBLEU Score for sample 20: 9.676662695478734e-05
+Sample 20 processing time: 52.73 seconds
+
+Processing sample 21/560 - Caption: This image depicts a 3D geometric shape resembling a crystal or diamond. The shape is composed of multiple triangular and quadrilateral faces. The edges of the shape are outlined in red, while the faces are filled with a light blue color. The overall structure is symmetrical along its vertical axis, with the top and bottom parts tapering to a point. The central section of the shape has a more complex arrangement of faces, creating a faceted appearance.
+TEX Edit Distance for sample 21: 0.6551905870437622
+CrystalBLEU Score for sample 21: 0.00010658617360862361
+Sample 21 processing time: 23.21 seconds
+
+Processing sample 22/560 - Caption: This image depicts a set of rays emanating from the origin in a coordinate plane. The rays are labeled with various mathematical expressions involving the function \( D \). The labels are positioned at the ends of the rays. The rays are distributed in the first and fourth quadrants, with some rays being solid lines and others being dotted lines. The axes are labeled with \( D(1) \) on the positive y-axis and \( D(2) \) on the positive x-axis. Additional labels include \( D\left(\frac{1}{2}\right) \), \( D\left(\frac{1}{22}\right) \), \( D(\tau^{-1}(2)) \), \( D\left(\frac{1}{2}(d, \lambda)\right) \), and \( D\left(\frac{11}{2}\right) \).
+
+To create this figure using TikZ, you would need to:
+1. Draw the x-axis and y-axis.
+2. Draw multiple rays emanating from the origin at different angles.
+3. Label the ends of the rays with the specified mathematical expressions.
+4. Use solid and dotted lines for different rays as shown in the image.
+TEX Edit Distance for sample 22: 0.8150118589401245
+CrystalBLEU Score for sample 22: 9.455523505346959e-05
+Sample 22 processing time: 52.66 seconds
+
+Processing sample 23/560 - Caption: This image appears to be a grid of 4x4 spheres, each labeled with various variables and symbols. The spheres are color-coded and contain different mathematical notations. The first column contains spheres labeled with variables \(x\), \(y\), and \(z\) in red, blue, and cyan respectively. The second to fourth columns contain spheres with overlapping colored regions and additional labels such as \(a\), \(b\), \(g\), and \(f\). There are arrows pointing from the first column to the second column, indicating a transformation or mapping, with labels \(O_{0000}\) and \(O_{000}\). The symbols \( \subseteq \) are used between the columns to indicate inclusion or subset relationships. The entire grid is annotated with a number (1) on the right side.
+
+To write the TikZ code for this figure, you would need to create a 4x4 grid of nodes, draw spheres at each node, label them appropriately, and use arrows and subset symbols to indicate the relationships between the spheres. The color coding and overlapping regions would also need to be replicated.
+TEX Edit Distance for sample 23: 0.8147314786911011
+CrystalBLEU Score for sample 23: 5.5961417451051566e-05
+Sample 23 processing time: 52.71 seconds
+
+Processing sample 24/560 - Caption: The figure illustrates a positive consumption externality in the energy-efficient housing market. The x-axis represents the quantity of energy-efficient housing, while the y-axis represents the price, costs, and benefits in yen. The graph includes the following curves:
+
+1. **MPB (Marginal Private Benefit)**: A downward-sloping red line.
+2. **MSB (Marginal Social Benefit)**: A downward-sloping blue line, above the MPB curve.
+3. **MPC (Marginal Private Cost) = MSC (Marginal Social Cost)**: An upward-sloping blue line.
+4. **MEB (Marginal External Benefit)**: A vertical distance between the MPB and MSB curves, marked with an orange double arrow.
+
+The equilibrium without externality (E1) is at the intersection of the MPB and MPC curves, with a corresponding quantity Qm and price Pm. The socially optimal equilibrium (Es) is at the intersection of the MSB and MSC curves, with a corresponding quantity Qopt and price Psot.
+
+The welfare loss, represented by a green triangle, is the area between the MPB and MSB curves from Qm to Qopt.
+TEX Edit Distance for sample 24: 0.7885576486587524
+CrystalBLEU Score for sample 24: 4.607917516233296e-05
+Sample 24 processing time: 52.68 seconds
+
+Processing sample 25/560 - Caption: This image depicts a geometric configuration involving three vertical lines at positions \(x_{k-1}\), \(x_k\), and \(x_{k+1}\) labeled \(C_{k-1}\), \(C_k\), and \(C_{k+1}\) respectively. The line at \(x_k\) has several angles and vectors emanating from it. The vectors \(U_{\Gamma}^{(\tau)}\), \(U_{\Gamma}\), \(U_I\), and \(U_B\) are shown, with \(U_{\Gamma}^{(\tau)}\) and \(U_{\Gamma}\) drawn in blue. The angles \(\alpha_1\) and \(\beta_1\) are marked between these vectors. The top of the lines \(C_{k-1}\) and \(C_k\) are connected by a slanted line, and the top of \(C_k\) and \(C_{k+1}\) are connected similarly. The lines \(C_{k-1}\) and \(C_{k+1}\) have hatching patterns on the top sections.
+TEX Edit Distance for sample 25: 0.8433152437210083
+CrystalBLEU Score for sample 25: 3.842318973704672e-05
+Sample 25 processing time: 52.74 seconds
+
+Processing sample 26/560 - Caption: This image depicts a decision tree diagram used to model the process of claim settlement and payment. The diagram is divided into two main sections: "Settlement" and "Payment." 
+
+1. The "Settlement" section has a single decision node labeled "1. settlement."
+2. The "Payment" section is further divided into two branches based on the outcome of the settlement:
+   - If "Yes," there are two decision nodes labeled "2. payment" and "3. pct_paid."
+   - If "No," there are two decision nodes labeled "2. payment" and "3. increase_paid."
+
+The diagram includes labels for "Initial claim characteristics" and "Updates" on the left side, indicating the factors influencing the decision process. The structure is organized in a tabular format with clear horizontal and vertical lines separating the different sections and decision nodes.
+
+This description can help in writing the TikZ code by providing a clear understanding of the hierarchical structure and labeling of the decision nodes.
+TEX Edit Distance for sample 26: 0.6484181880950928
+CrystalBLEU Score for sample 26: 7.660372926992849e-05
+Sample 26 processing time: 20.93 seconds
+
+Processing sample 27/560 - Caption: This image depicts a coordinate system with the x1-axis and x2-axis, ranging from -2 to 2 on both axes. The background is divided into two regions: the left half is shaded in red and the right half in green. The x1-axis is labeled with points a(t_min) at -1 and a(t_max) at 1. There is a semicircular arc labeled Γ centered at the origin, spanning from a(t_min) to a(t_max). The axes are labeled with x1 and x2, and there are tick marks at each integer value on both axes.
+TEX Edit Distance for sample 27: 0.5489258766174316
+CrystalBLEU Score for sample 27: 0.00015097343735508148
+Sample 27 processing time: 19.72 seconds
+
+Processing sample 28/560 - Caption: This image is a plot of two probability density functions (PDFs) over the same range of values for "Feature Y" on the x-axis and "Count" on the y-axis. The first PDF is represented by a blue dashed line, peaking around 0, and the second PDF is represented by a red solid line, peaking around 1. The x-axis ranges from -2 to 3, and the y-axis ranges from 0 to 0.8. The plot includes axis labels for both the x-axis ("Feature Y") and the y-axis ("Count").
+TEX Edit Distance for sample 28: 0.5847189426422119
+CrystalBLEU Score for sample 28: 0.0002299709785151449
+Sample 28 processing time: 17.33 seconds
+
+Processing sample 29/560 - Caption: The image depicts a horizontal number line centered at 0, extending from -2 to 2. The number line is labeled with tick marks at intervals of 0.5 units. The x-axis is denoted by \( x \) at the far right end. The tick marks are labeled with the corresponding values: -2, -1.5, -1, -0.5, 0, 0.5, 1, 1.5, and 2. The arrow at the right end of the number line indicates the positive direction of the x-axis.
+TEX Edit Distance for sample 29: 0.5596727132797241
+CrystalBLEU Score for sample 29: 0.00025888692552456964
+Sample 29 processing time: 7.77 seconds
+
+Processing sample 30/560 - Caption: This image depicts a block diagram with five rectangular blocks and labeled arrows. Four blocks are aligned vertically on the left side, each labeled with \( w(t-2) \), \( w(t-1) \), \( w(t+1) \), and \( w(t+2) \). Each of these blocks has an arrow pointing to a central block labeled "SUM". The central "SUM" block has an arrow pointing to a fifth block on the right side, labeled \( w(t) \). This diagram represents a summation process where the inputs from the four left blocks are combined in the SUM block to produce an output in the right block.
+TEX Edit Distance for sample 30: 0.6142237186431885
+CrystalBLEU Score for sample 30: 0.00034969691587797603
+Sample 30 processing time: 12.67 seconds
+
+Processing sample 31/560 - Caption: This scatter plot compares the probability bounds \( p \) obtained from a Program-Agnostic Neural ISM (x-axis) to those obtained from Farkas' Lemma (y-axis). The x-axis and y-axis are both on a logarithmic scale ranging from \( 10^{-3} \) to \( 10^0 \). The plot includes a dashed line representing \( y = x \) for reference. Data points are marked with red circles and red crosses, where circles indicate cases where Farkas' Lemma fails and crosses indicate cases where Farkas' Lemma succeeds. A legend in the plot explains the symbols used.
+TEX Edit Distance for sample 31: 0.8015082478523254
+CrystalBLEU Score for sample 31: 0.0003206351517483668
+Sample 31 processing time: 52.69 seconds
+
+Processing sample 32/560 - Caption: The image shows a circular diagram with two concentric circles. The outer circle is divided into 12 equal segments, each labeled with \(B_1\) to \(B_{12}\). The inner circle is divided into 8 equal segments, each labeled with \(B_1\) to \(B_8\). The segments are separated by radial lines extending from the center of the circles to their peripheries. The labels are placed near the outer edge of each segment.
+TEX Edit Distance for sample 32: 0.6551247835159302
+CrystalBLEU Score for sample 32: 0.00038866626546366084
+Sample 32 processing time: 17.28 seconds
+
+Processing sample 33/560 - Caption: This image depicts a geometric configuration involving three vertical lines at positions \(x_{k-1}\), \(x_k\), and \(x_{k+1}\) labeled \(C_{k-1}\), \(C_k\), and \(C_{k+1}\) respectively. The line at \(x_k\) has several angles and vectors emanating from it. The vectors \(U_{\Gamma}^{(\tau)}\), \(U_{\Gamma}\), \(U_I\), and \(U_B\) are shown, with \(U_{\Gamma}^{(\tau)}\) and \(U_{\Gamma}\) drawn in blue. The angles \(\alpha_1\) and \(\beta_1\) are marked between these vectors. The top of the lines \(C_{k-1}\) and \(C_k\) are connected by a slanted line, and the top of \(C_k\) and \(C_{k+1}\) are connected similarly. The lines \(C_{k-1}\) and \(C_{k+1}\) have hatching patterns on the top sections.
+TEX Edit Distance for sample 33: 0.8388916254043579
+CrystalBLEU Score for sample 33: 0.00033463620172027983
+Sample 33 processing time: 52.72 seconds
+
+Processing sample 34/560 - Caption: The image shows three small graphs with labeled vertices and edges. 
+
+1. The first graph on the left has two vertices: \( y_3 \) (filled circle) at the top and \( z_1 \) (square) at the bottom. There is a vertical edge connecting \( y_3 \) and \( z_1 \). The coordinates \( (2,3) \) are written next to \( y_3 \).
+
+2. The second graph in the middle has three vertices: \( y_5 \) (empty circle) at the top, \( y_4 \) (filled circle) in the middle, and \( y_1 \) (filled circle) at the bottom. There are vertical edges connecting \( y_5 \) to \( y_4 \) and \( y_4 \) to \( y_1 \). The coordinates \( (1,0) \) are written next to \( y_5 \), and \( (3,1) \) are written next to \( y_1 \).
+
+3. The third graph on the right has two vertices: \( y_6 \) (empty circle) at the top and \( y_2 \) (filled circle) at the bottom. There is a vertical edge connecting \( y_6 \) and \( y_2 \). The coordinates \( (0,3) \) are written next to \( y_6 \).
+
+All vertices and edges are aligned vertically, and the labels are positioned near the vertices.
+TEX Edit Distance for sample 34: 0.6546128392219543
+CrystalBLEU Score for sample 34: 0.0006375006016997118
+Sample 34 processing time: 35.97 seconds
+
+Processing sample 35/560 - Caption: The image depicts a mathematical diagram with several elements:
+
+1. **Background**: A rectangular grid with a light green background.
+2. **Axes**: The center of the grid is marked with a black dot labeled "0".
+3. **Curves**: 
+   - A black curve passing through the center.
+   - Two additional curves, one labeled \(\psi^+\) (in purple) and another labeled \(\psi^-\) (in blue), intersecting the black curve.
+4. **Arrows**: 
+   - Red arrows pointing upwards along vertical lines.
+   - Purple and blue arrows along the curves \(\psi^+\) and \(\psi^-\), respectively, indicating direction.
+5. **Labels**: 
+   - The label \(\Psi_z(W_z) = [-1,1]^2\) on the left side.
+   - The label \(\Psi_z(X \cap W_z)\) on the right side.
+6. **Vertical Lines**: Red vertical lines spaced evenly across the grid.
+
+This description should help in writing the TikZ code to replicate the figure.
+TEX Edit Distance for sample 35: 0.834838330745697
+CrystalBLEU Score for sample 35: 0.00039302115894697317
+Sample 35 processing time: 52.87 seconds
+
+Processing sample 36/560 - Caption: Caption: "The image depicts a logarithmic spiral created using a series of interconnected lines. The spiral starts from the center and expands outward, with the lines forming a mesh-like pattern. The color of the lines is a gradient of blue, becoming lighter as they move outward from the center."
+
+This description should help you understand the structure and color gradient of the spiral for writing the TikZ code.
+TEX Edit Distance for sample 36: 0.807107150554657
+CrystalBLEU Score for sample 36: 0.00036565177478511805
+Sample 36 processing time: 52.59 seconds
+
+Processing sample 37/560 - Caption: This image depicts a hierarchical tree structure with multiple levels of nodes and connections. At the top, there is a single node labeled \( \nu_c \) within an oval labeled \( \Omega_n \). This top node connects to a middle layer of nodes contained within a larger oval, labeled \( \Omega_g \cup \Omega_{nb} \). Each node in this middle layer is connected to several nodes in the bottom layer, which are grouped into three separate ovals labeled \( \Omega_p \). The nodes and connections are represented by black dots and lines, respectively. The structure illustrates a clear hierarchical relationship among the nodes, with the top node branching out to multiple nodes in the middle layer, which in turn branch out to multiple nodes in the bottom layer.
+TEX Edit Distance for sample 37: 0.8224201202392578
+CrystalBLEU Score for sample 37: 0.000318351413315968
+Sample 37 processing time: 52.69 seconds
+
+Processing sample 38/560 - Caption: This bar chart compares the accuracy of five different methods: MLP, WL-Kernel, FEATHER, SLaq-LSD, and SLaq-VGNE. The y-axis represents accuracy, ranging from 0.00 to 1.00. Each bar is labeled with its corresponding accuracy value: MLP (0.8054), WL-Kernel (0.7053), FEATHER (0.8488), SLaq-LSD (0.7790), and SLaq-VGNE (0.5590). The bars are colored blue, and the x-axis labels are rotated for better readability.
+TEX Edit Distance for sample 38: 0.540316104888916
+CrystalBLEU Score for sample 38: 0.0004530570289171847
+Sample 38 processing time: 24.97 seconds
+
+Processing sample 39/560 - Caption: The image depicts a diagram consisting of two vertical columns of dots, each containing six dots. These columns are connected by various curved lines. The left column has three pairs of dots connected by semicircular arcs on the left side. The right column has three pairs of dots connected by semicircular arcs on the right side. Additionally, there are curved lines connecting dots between the two columns. One of these lines crosses over another. At the top right, there is a rectangular box labeled "2" connected to the second dot from the top in the right column. Below the diagram, the letter "D" is centered.
+TEX Edit Distance for sample 39: 0.8088246583938599
+CrystalBLEU Score for sample 39: 0.0003357610546662911
+Sample 39 processing time: 52.75 seconds
+
+Processing sample 40/560 - Caption: The image displays a single red circle centered on a white background. There is a text "The alt" in blue located at the top left corner of the image. 
+
+To create this in TikZ, you would need to:
+1. Draw a red circle at the center of the canvas.
+2. Place blue text "The alt" at the top left corner of the canvas.
+
+Here is a sample caption for the image:
+"A centered red circle with radius 1 unit on a white background. Blue text 'The alt' is positioned at the top left corner of the canvas."
+
+This caption should help you write the corresponding TikZ code.
+TEX Edit Distance for sample 40: 0.5867903828620911
+CrystalBLEU Score for sample 40: 0.0003436132472004089
+Sample 40 processing time: 5.31 seconds
+
+Processing sample 41/560 - Caption: This image depicts a sequence of connected subgraphs, each represented by a rectangle labeled \( K_{n,n}^{(i)} - e \), where \( i \) ranges from 1 to \( n \). Each rectangle has a node at the top and bottom left corners, connected by an edge labeled "1". The rectangles are connected in a sequence by edges labeled "1" at the top nodes and by edges labeled "u" at the bottom nodes. The bottom nodes of the rectangles are connected to a central node at the bottom, which connects to the bottom left node of each rectangle. The sequence continues with ellipses indicating the continuation up to the \( n \)-th rectangle.
+TEX Edit Distance for sample 41: 0.544019341468811
+CrystalBLEU Score for sample 41: 0.000447179415851902
+Sample 41 processing time: 16.75 seconds
+
+Processing sample 42/560 - Caption: This image depicts three distinct graphs \( G \), \( H \), and \( K \) aligned horizontally along a common baseline. The graph \( G \) consists of a diamond shape at the top connected by a vertical path of three edges to the baseline. The edges of the diamond are colored alternately in blue and red. The vertical path connecting the diamond to the baseline consists of two edges labeled \( e_0 \) and \( e_1 \), with \( e_0 \) being the topmost edge. The graph \( H \) is a simple vertical path of three edges, with the top and bottom edges colored red and the middle edge colored blue. The graph \( K \) is a diamond shape similar to the one in \( G \), with alternating blue and red edges, but it is directly on the baseline. All vertices are represented by black dots.
+TEX Edit Distance for sample 42: 0.8375917077064514
+CrystalBLEU Score for sample 42: 0.00042086524416211146
+Sample 42 processing time: 52.60 seconds
+
+Processing sample 43/560 - Caption: The image depicts a mathematical operation involving three hexagonal graphs. The first hexagon on the left is labeled with zeros at each vertex and contains dashed lines forming smaller triangles within it. The vertex at the top is labeled as Δ_{1}(1). The middle hexagon is labeled similarly with zeros at each vertex, but it contains solid lines forming a more complex internal structure with additional labels M_{1}(2), M_{1}(4), M_{1}(5), and M_{1}(6) at specific vertices. The operation between the two hexagons is indicated by a multiplication sign (×). The resulting hexagon on the right, labeled with zeros at each vertex, shows a combination of the internal structures from the first two hexagons, forming a more intricate pattern of lines. An equality sign (=) connects the middle and right hexagons, indicating the result of the operation.
+TEX Edit Distance for sample 43: 0.8437506556510925
+CrystalBLEU Score for sample 43: 0.00032270945960621785
+Sample 43 processing time: 52.70 seconds
+
+Processing sample 44/560 - Caption: This image depicts a series of geometric transformations and movements. It shows a sequence of squares and circles along a horizontal axis. The squares are rotated 45 degrees and positioned above the circles, with arrows indicating upward movement. The circles are placed along the horizontal axis with dashed circles indicating intermediate positions. Additionally, there are curved arrows below the circles indicating rotational movement. The horizontal axis has tick marks and an arrow pointing to the right, suggesting a positive direction.
+
+To create this image using TikZ, you would need to:
+1. Draw the horizontal axis with tick marks and an arrow.
+2. Position the circles along the axis, including dashed circles for intermediate positions.
+3. Draw the squares rotated at 45 degrees above the circles, with arrows indicating upward movement.
+4. Add curved arrows below the circles to indicate rotational movement.
+TEX Edit Distance for sample 44: 0.8303669095039368
+CrystalBLEU Score for sample 44: 0.000304447313753698
+Sample 44 processing time: 52.67 seconds
+
+Processing sample 45/560 - Caption: This image depicts a series of nested and overlapping shapes, each labeled with different terms. Starting from the innermost shape, there are concentric ellipses labeled "stable" and "stable-c" in red. Surrounding these ellipses is a rectangle labeled "PO" and "optimal-c" in blue, and "optimal-cc" in blue. Outside of this rectangle, there is another larger rectangle with diagonal hatching, and outside of this, another rectangle labeled "SWC" on the left and "SWN" on the right, with "LS" at the bottom center. The outermost shape is an ellipse labeled "stable-cc" in red, and the largest rectangle is labeled "CTC" at the top. The labels are color-coded and positioned appropriately to indicate the regions they describe.
+TEX Edit Distance for sample 45: 0.807334303855896
+CrystalBLEU Score for sample 45: 0.00027405111826293144
+Sample 45 processing time: 52.69 seconds
+
+Processing sample 46/560 - Caption: This image depicts a flowchart of a neural network training process using automatic differentiation. The flowchart consists of the following components:
+
+1. Two input nodes labeled \( x \) and \( t \) on the left.
+2. Two arrows pointing from \( x \) and \( t \) to two separate boxes labeled \( A_u(\theta_u) \) and \( A_{\gamma}(\theta_{\gamma}) \), respectively.
+3. The outputs of \( A_u(\theta_u) \) and \( A_{\gamma}(\theta_{\gamma}) \) are connected to a single box containing the equation \( \mathcal{L} = \mathcal{L}_N + \mathcal{L}_B + \mathcal{L}_L + \mathcal{L}_M \).
+4. The box containing the loss function \( \mathcal{L} \) has arrows pointing back to the boxes \( A_u(\theta_u) \) and \( A_{\gamma}(\theta_{\gamma}) \) labeled with \( \nabla_{\theta_u} \mathcal{L} \) and \( \nabla_{\theta_{\gamma}} \mathcal{L} \), respectively.
+5. The arrows indicating the gradients are labeled "automatic differentiation".
+
+This description should help in writing the TikZ code to create a similar diagram.
+TEX Edit Distance for sample 46: 0.6328839659690857
+CrystalBLEU Score for sample 46: 0.000722112377873282
+Sample 46 processing time: 54.20 seconds
+
+Processing sample 47/560 - Caption: The image shows three different bipartite graphs with 8 vertices each. Each graph is drawn with black vertices and edges, and red edges to highlight specific connections. The vertices are labeled from 1 to 8.
+
+1. The first graph (left) has vertices arranged in two parallel vertical lines, with edges connecting corresponding vertices across the lines (1-2, 3-4, 5-6, 7-8).
+2. The second graph (middle) has vertices arranged in two parallel vertical lines, with edges connecting vertices in a crisscross pattern (1-5, 2-6, 3-7, 4-8).
+3. The third graph (right) has vertices arranged in a square grid pattern, with edges connecting vertices in a square and diagonal pattern (1-3, 2-4, 3-5, 4-6, 5-7, 6-8, 7-1, 8-2).
+
+This description should help in writing the TikZ code to recreate these graphs.
+TEX Edit Distance for sample 47: 0.8409516215324402
+CrystalBLEU Score for sample 47: 0.0004790890161580731
+Sample 47 processing time: 52.84 seconds
+
+Processing sample 48/560 - Caption: This image depicts a schematic diagram of a computational domain divided into three types of cells: Normal Cell, Intermediate Cell, and Structure Cell. The cells are arranged horizontally and labeled as \(x_{i-2}\), \(x_{i-1}\), and \(x_i\) respectively. The height of the cells is denoted by \(h\). 
+
+- The Normal Cell is on the left, shaded in light blue, and has a force \(F_{i-\frac{1}{2}}\) acting to the right.
+- The Intermediate Cell is in the middle, shaded in a slightly darker blue, and has forces \(F_{i-\frac{1}{2}}\) and \(F_{i+\frac{1}{2}}\) acting to the right.
+- The Structure Cell is on the right, shaded in the darkest blue, and has forces \(F_{i+\frac{1}{2}}\), \(F_{i+\frac{3}{2}}\), and \(F_{i+\frac{5}{2}}\) acting to the right.
+
+Each force is represented by an arrow pointing to the right. The vertical dashed lines indicate the boundaries between the cells. The top and bottom boundaries of the cells are marked with dashed lines extending horizontally. The labels \(z_{i-2}\), \(z_{i-1}\), and \(z_i\) are positioned along the right side of the cells to indicate vertical positions.
+TEX Edit Distance for sample 48: 0.8239015340805054
+CrystalBLEU Score for sample 48: 0.0004150979950869551
+Sample 48 processing time: 52.76 seconds
+
+Processing sample 49/560 - Caption: This image is a plot showing the cumulative distribution function (CDF) of position error (err) in meters on a logarithmic scale for both random and directional estimations. The x-axis is labeled "err [m]" and ranges from \(10^{-2}\) to \(10^{-1}\). The y-axis is labeled "Pr(Position error < err)" and ranges from 0 to 1. There are four curves in the plot:
+
+1. A red dashed line representing "random (Est.)".
+2. A red solid line representing "random (PEB)".
+3. A black dash-dotted line representing "directional (Est.)".
+4. A black solid line representing "directional (PEB)".
+
+A legend is present in the upper right corner of the plot, identifying each line style and color with its corresponding label.
+TEX Edit Distance for sample 49: 0.9139338731765747
+CrystalBLEU Score for sample 49: 0.000326580978084851
+Sample 49 processing time: 52.98 seconds
+
+Processing sample 50/560 - Caption: The image depicts a mathematical diagram with a circle centered at the origin and intersecting the x-axis at two points. The x-axis is marked with several labeled points: \(a_1\), \(a_2\), \(b_1\), \(b_2\), \(c_1\), \(c_2\), \(d_1\), and \(d_2\). The points \(a_1\), \(a_2\), \(c_1\), and \(c_2\) are clustered near the origin, while \(b_1\), \(b_2\), \(d_1\), and \(d_2\) are further to the right. The y-axis is also present, intersecting the x-axis at the origin. There is an arrow indicating a counterclockwise direction around the circle. The points on the x-axis are represented as filled circles, and the circle and axes are drawn with solid lines.
+TEX Edit Distance for sample 50: 0.567571759223938
+CrystalBLEU Score for sample 50: 0.0005554229972830763
+Sample 50 processing time: 42.88 seconds
+
+Processing sample 51/560 - Caption: The image depicts a graph with three distinct vertical layers of nodes, each layer containing nodes of a different color. The top layer consists of orange nodes, the middle layer consists of blue nodes, and the bottom layer consists of red nodes. Nodes are connected by black edges, forming a network with connections primarily between adjacent layers. The connections include both vertical and diagonal edges, creating a structured yet interconnected graph.
+
+This description can help in writing the TikZ code by specifying:
+1. The positions and colors of the nodes.
+2. The connections (edges) between the nodes.
+3. The overall layout of the graph.
+
+Here is a sample TikZ code snippet to create a similar graph:
+
+```latex
+\documentclass{standalone}
+\usepackage{tikz}
+
+\begin{document}
+\begin{tikzpicture}
+
+% Define node styles
+\tikzstyle{orange node}=[circle, fill=orange, minimum size=6pt, inner sep=0pt]
+\tikzstyle{blue node}=[circle, fill=blue, minimum size=6pt, inner sep=0pt]
+\tikzstyle{red node}=[circle, fill=red, minimum size=6pt, inner sep=0pt]
+
+% Draw nodes
+\node[orange node] (o1) at (0, 6) {};
+\node[orange node] (o2) at (0, 5) {};
+\node[orange node] (o3) at (0, 4) {};
+\node[orange node] (o4) at (0, 3) {};
+\node[orange node] (o5) at (1, 4) {};
+
+\node[blue node] (b1) at (0, 2) {};
+\node[blue node] (b2) at (0, 1) {};
+\node[blue node] (b3) at (1, 2) {};
+\node[blue node] (b4) at (1, 1) {};
+
+\node[red node] (r1) at (0, 0) {};
+\node[red node] (r2) at (1, 0) {};
+
+% Draw edges
+\draw (o1) -- (o2);
+\draw (o2) -- (o3);
+\draw (o3) -- (o4);
+\draw (o4) -- (b1);
+\draw (b1) -- (b2);
+\draw (b2) -- (r1);
+\draw (b4) -- (r2);
+
+\draw (o3) -- (b3);
+\draw (o4) -- (b4);
+\draw (b1) -- (b3);
+\draw (b2) -- (b4);
+
+\draw (o5) -- (b3);
+\draw (o5) -- (b4);
+
+\end{tikzpicture}
+\end{document}
+```
+
+This code will generate a graph similar to the one in the image, with nodes and edges placed accordingly.
+TEX Edit Distance for sample 51: 0.6775152683258057
+CrystalBLEU Score for sample 51: 0.000864068445008052
+Sample 51 processing time: 39.48 seconds
+
+Processing sample 52/560 - Caption: The image depicts a circle with four angles labeled θ1, θ2, θ3, and θ4 at the center, denoted as Z. Four arrows labeled t1, t2, t3, and t4 radiate outward from the circle in different directions. The arrows t1 and t3 are aligned horizontally, pointing to the right and left respectively, while t2 and t4 are aligned vertically, pointing upwards and downwards respectively. The angles θ1, θ2, θ3, and θ4 are positioned around the center Z, indicating the directions of the arrows.
+TEX Edit Distance for sample 52: 0.5850160121917725
+CrystalBLEU Score for sample 52: 0.000984370864991492
+Sample 52 processing time: 14.99 seconds
+
+Processing sample 53/560 - Caption: This image depicts a decision flowchart with three decision nodes and three outcomes. The flowchart is structured as follows:
+
+1. The first decision node is a rectangle with the question: "Has the number of observed unfavorable outcomes exceeded the pre-determined threshold?" 
+   - If the answer is "no," the flowchart leads to the outcome "STOP" in red text.
+   - If the answer is "yes," it leads to the next decision node.
+
+2. The second decision node is a rectangle with the question: "Is there an acceptable probability that it matches the target product profile?"
+   - If the answer is "no," it leads to the outcome "STOP" in red text.
+   - If the answer is "yes," it leads to the next decision node.
+   - If the evidence is inadequate, it leads to the outcome "Continue" in yellow text.
+
+3. The third decision node is a dashed rectangle with the question: "Does it rank well?"
+   - If the answer is "no," it loops back to the second decision node.
+   - If the answer is "yes," it leads to the outcome "GO" in green text.
+
+Arrows indicate the flow of decisions, with "yes" and "no" labels guiding the direction.
+TEX Edit Distance for sample 53: 0.5658846497535706
+CrystalBLEU Score for sample 53: 0.0013981817886434531
+Sample 53 processing time: 37.32 seconds
+
+Processing sample 54/560 - Caption: This image is a horizontal bar chart depicting the correlation coefficients (ρ) between a dependent variable (ε) and several independent variables (δ). The independent variables listed on the y-axis are "hours per week," "education-num," "Adm-Clerical (Occupation)," "Exec-managerial (Occupation)," "Craft-repair (Occupation)," and "Priv-house-serv (Occupation)." The corresponding correlation coefficients are displayed at the end of each bar: 0.57, 0.54, 0.52, 0.35, 0.31, and -0.29 respectively. The bars are color-coded in blue, with positive correlations extending to the right and the negative correlation extending to the left. The x-axis ranges from -1 to 1, indicating the possible values of the correlation coefficients.
+TEX Edit Distance for sample 54: 0.520294725894928
+CrystalBLEU Score for sample 54: 0.0017171910864763335
+Sample 54 processing time: 53.57 seconds
+
+Processing sample 55/560 - Caption: The image depicts a graph with 12 vertices and 14 edges. The vertices are represented as black dots, and the edges are represented as black lines connecting the vertices. The graph has a central polygonal structure with additional vertices and edges extending outward, forming a complex, interconnected shape. The vertices and edges vary in length and orientation, creating an irregular, non-symmetric pattern. This graph could be used to represent a network or a complex geometric structure.
+TEX Edit Distance for sample 55: 0.6301332712173462
+CrystalBLEU Score for sample 55: 0.002096426668861498
+Sample 55 processing time: 35.81 seconds
+
+Processing sample 56/560 - Caption: The image shows two identical matrices labeled \( M \). Each matrix is a 2x4 matrix with the following elements:
+
+\[
+M = \begin{bmatrix}
+1 & 2 & 9 & 3 \\
+1 & -3 & -6 & 3
+\end{bmatrix}
+\]
+
+The matrices are displayed one below the other with some vertical spacing between them. The elements of the matrices are typeset in a standard mathematical font.
+TEX Edit Distance for sample 56: 0.5556535720825195
+CrystalBLEU Score for sample 56: 0.0021838828653512328
+Sample 56 processing time: 21.16 seconds
+
+Processing sample 57/560 - Caption: This image depicts a block diagram of an attention mechanism in a sequence-to-sequence model. The diagram includes the following components:
+
+1. **Inputs**: 
+   - \( A_1, I_1, \ldots, A_n, I_n \) are input pairs, where \( A_i \) and \( I_i \) are processed by a "TE" (presumably a Token Embedding) and "T" (presumably a Transformer) block respectively.
+   - The outputs of these blocks are directed into the "attention" block, resulting in \( V_1, K_1, \ldots, V_n, K_n \).
+
+2. **Attention Block**: 
+   - The attention block processes the inputs and outputs the attention vectors.
+
+3. **Decoder**:
+   - The attention output is fed into a "TD" (presumably a Transformer Decoder) block.
+   - The decoder also takes an initial input sequence \( \text{SOS}, a_1^Q, \ldots, a_{m-1}^Q \) and produces the output sequence \( a_1^Q, \ldots, a_m^Q \).
+
+4. **Additional Inputs**:
+   - An additional input \( I_Q \) is processed by a "T" block and fed into the attention block.
+
+The diagram uses arrows to indicate the flow of data between these components, and the blocks are labeled with their respective functions.
+
+This caption should help in writing the TikZ code by identifying the key components and their connections.
+TEX Edit Distance for sample 57: 0.5805626511573792
+CrystalBLEU Score for sample 57: 0.002687533604885651
+Sample 57 processing time: 43.25 seconds
+
+Processing sample 58/560 - Caption: The image shows two hexagonal grids, one smaller and one larger, with labeled vertices. The smaller hexagon on the left is filled with a light green color and labeled "σp+1" at the bottom. Its vertices are labeled with the numbers 1 and 2. The larger hexagon on the right, labeled "σk'+p+1" at the bottom, is composed of multiple smaller hexagons. The central hexagon is also filled with light green and labeled with the number 2, while the surrounding hexagons are filled with light yellow and labeled with numbers in the form of "2k'-1", "2k'", "2k'+1", etc. An arrow labeled "k" points from the smaller hexagon to the larger hexagon, indicating a transformation or expansion process.
+TEX Edit Distance for sample 58: 0.8155726194381714
+CrystalBLEU Score for sample 58: 0.001612144941424575
+Sample 58 processing time: 53.07 seconds
+
+Processing sample 59/560 - Caption: The image consists of three squares labeled "A", "B", and "C" from left to right. Each square has a border and contains a letter centered within it. The squares labeled "A" and "C" have a yellow background, while the square labeled "B" has a white background. Each square has a vertical line on both the left and right sides, close to the borders. The squares are evenly spaced horizontally.
+TEX Edit Distance for sample 59: 0.5958232283592224
+CrystalBLEU Score for sample 59: 0.0016845942778918126
+Sample 59 processing time: 9.50 seconds
+
+Processing sample 60/560 - Caption: The image shows two diamond-shaped graphs side by side. The graph on the left consists of five vertices labeled \(u_1\), \(u_2\), \(u_3\), \(v\), and \(w\). The vertices \(u_1\), \(u_2\), and \(u_3\) form a triangle with \(u_2\) at the top, and \(v\) and \(w\) are connected to \(u_2\) forming a diamond shape. The graph on the right consists of six vertices labeled \(u_1\), \(u_2\), \(u_3\), \(u_4\), \(v\), and \(w\). The vertices \(u_1\), \(u_2\), \(u_3\), and \(u_4\) form a quadrilateral with \(u_2\) and \(u_3\) in the middle, and \(v\) and \(w\) are connected to \(u_2\) and \(u_3\) forming a more complex diamond shape. Both graphs have thick edges.
+TEX Edit Distance for sample 60: 0.8138434886932373
+CrystalBLEU Score for sample 60: 0.0014082484428631825
+Sample 60 processing time: 52.89 seconds
+
+Processing sample 61/560 - Caption: This image depicts a layered directed graph, commonly used to represent a network or a flowchart. The graph consists of multiple layers of nodes connected by directed edges. The structure is as follows:
+
+1. **Nodes**:
+   - There is a single starting node labeled "0" on the left.
+   - Multiple layers of nodes follow, each layer containing nodes labeled with a combination of "X" and an index (e.g., X_1, X_2, etc.).
+   - The final layer contains nodes labeled with "B" and an index (e.g., B_1, B_2, etc.).
+
+2. **Edges**:
+   - Directed edges connect nodes from one layer to the next.
+   - The starting node "0" has directed edges to the first node in each subsequent layer.
+   - Each node in the intermediate layers has directed edges to the next node in the same layer and possibly to nodes in other layers.
+
+3. **Labels**:
+   - Nodes are labeled with indices.
+   - Edges are labeled with numbers indicating the order or weight of the connection.
+
+4. **Layout**:
+   - The graph is organized in a grid-like structure with nodes aligned vertically and horizontally.
+   - The edges are mostly straight lines, with some curved or dashed lines indicating different types of connections.
+
+This structure can be implemented in TikZ using nodes for the vertices and arrows for the directed edges, with appropriate labels for each node and edge.
+TEX Edit Distance for sample 61: 0.7944754362106323
+CrystalBLEU Score for sample 61: 0.0013301945950604994
+Sample 61 processing time: 52.79 seconds
+
+Processing sample 62/560 - Caption: This image shows five arrows originating from a common point (the origin) and extending outward in different directions. Each arrow is a different color: blue, red, magenta, green, and yellow, arranged in increasing angles from the horizontal axis. The blue arrow is horizontal, the red arrow is at an angle above the blue, followed by the magenta, green, and yellow arrows, each at progressively larger angles from the horizontal axis. The arrows are evenly spaced in terms of their angles.
+TEX Edit Distance for sample 62: 0.5691148638725281
+CrystalBLEU Score for sample 62: 0.0013754815773770425
+Sample 62 processing time: 7.51 seconds
+
+Processing sample 63/560 - Caption: The image consists of two distinct shapes on a white background. On the left side, there is a solid red circle with a black outline. On the right side, there is a red sector of a circle (a pie slice) with a black outline. The sector appears to be a quarter circle.
+
+This description can help you write the TikZ code to recreate the image.
+TEX Edit Distance for sample 63: 0.6058599352836609
+CrystalBLEU Score for sample 63: 0.0014140967618257734
+Sample 63 processing time: 10.39 seconds
+
+Processing sample 64/560 - Caption: This image depicts a factor graph with two variable nodes and two factor nodes. The variable nodes, labeled \(X_i\) and \(X_j\), are represented as circles, while the factor nodes, labeled \(C_1\) and \(C_2\), are represented as squares. The variable nodes are connected to the factor nodes by edges, forming a diamond-like shape. The factor nodes are shaded in gray, and the variable nodes are not shaded. The edges connecting the nodes are solid lines.
+
+This description should help in writing the TikZ code to recreate this figure.
+TEX Edit Distance for sample 64: 0.5788695812225342
+CrystalBLEU Score for sample 64: 0.0015300174321541454
+Sample 64 processing time: 12.66 seconds
+
+Processing sample 65/560 - Caption: The image shows a semicircle with a black outline positioned above a red line. The semicircle is oriented with its flat edge on top and its curved edge on the bottom. The red line extends from the center of the semicircle's flat edge and continues downward at an angle to the left. The background is a light yellow color.
+
+This description can help in writing the TikZ code by specifying the semicircle's position and orientation, the starting point and angle of the red line, and the background color.
+TEX Edit Distance for sample 65: 0.651199996471405
+CrystalBLEU Score for sample 65: 0.001556753306750362
+Sample 65 processing time: 6.17 seconds
+
+Processing sample 66/560 - Caption: This image depicts a geometric representation of two vectors, \( \hat{A}_d \) and \( \hat{A}_u \), in a coordinate system with axes labeled \( \sigma_1 \) and \( \sigma_3 \). The vectors form two shaded regions: a blue region above the \( \hat{A}_d \) vector and an orange region below it. The angle between \( \hat{A}_d \) and \( \hat{A}_u \) is labeled \( \theta_d \), and the angle between the vector \( \hat{A}_d \times \hat{A}_u \) and the horizontal axis is labeled \( 2\theta_c \). The intersection of the vectors is labeled \( c_{1}\sigma_{2} \sim \hat{A}_d \times \hat{A}_u \). The points \( c_R \), \( X \), and the conditions \( |\Delta C| = 1 \) and \( |\Delta S| = 1 \) are also marked. The vectors and angles are clearly indicated, and the shaded regions are distinguished by different colors.
+TEX Edit Distance for sample 66: 0.6055954098701477
+CrystalBLEU Score for sample 66: 0.0018336003870232443
+Sample 66 processing time: 24.86 seconds
+
+Processing sample 67/560 - Caption: This image depicts a grid network with horizontal and vertical lines intersecting at nodes. The nodes are represented by black dots. There are two horizontal cuts labeled "Cut A" and "Cut B" at the bottom and top of the grid, respectively. A rectangular box is centered around one of the nodes, labeled \( n_i(t) \). Four nodes adjacent to the central node are labeled with the Greek letter \( \alpha \). The grid lines are thicker at the edges near the cuts and thinner elsewhere.
+
+To create this image using TikZ, you would need to:
+1. Draw a grid of lines.
+2. Highlight certain nodes with black dots.
+3. Label specific nodes with \( \alpha \).
+4. Draw a rectangular box around a central node and label it \( n_i(t) \).
+5. Add labels "Cut A" and "Cut B" at the appropriate positions on the grid.
+TEX Edit Distance for sample 67: 0.6438919901847839
+CrystalBLEU Score for sample 67: 0.0018631763656026448
+Sample 67 processing time: 20.41 seconds
+
+Processing sample 68/560 - Caption: This image is a line plot depicting the relationship between the standard deviation (σ) on the x-axis and the average number of steps until convergence (scaled by 10^4) on the y-axis. The plot includes three lines representing different conditions: "resent" (blue), "resent+apprec" (orange), and "apprec" (green). The legend is placed inside the plot area, in the upper left quadrant. The x-axis ranges from 0 to 100, and the y-axis ranges from 0 to 3.5 (scaled by 10^4).
+TEX Edit Distance for sample 68: 0.621195375919342
+CrystalBLEU Score for sample 68: 0.002142912007662591
+Sample 68 processing time: 31.63 seconds
+
+Processing sample 69/560 - Caption: This image depicts a star polygon (pentagram) inscribed in a circle. The vertices of the pentagram are labeled with the numbers 1, 2, 3, 4, and 5. The intersections of the lines forming the pentagram are labeled with the numbers 14, 13, 24, 35, and 25. The points on the circle that are not vertices of the pentagram are labeled with the numbers 12, 23, 34, 45, and 15. All labels are enclosed in small circles. The entire figure is symmetric and centered around the number 25, which is at the center of the pentagram.
+TEX Edit Distance for sample 69: 0.804014265537262
+CrystalBLEU Score for sample 69: 0.0020519540027926757
+Sample 69 processing time: 52.72 seconds
+
+Processing sample 70/560 - Caption: This image is a bubble chart that represents the relationship between different property keyword categories and the properties optimized. The x-axis is labeled "Property optimised" with categories: Time, Size, Energy, Other, and Memory. The y-axis is labeled "Property keyword category" with categories: Time, Energy, Quality, Memory, and Other. Each bubble's size represents the magnitude of the relationship, and the color indicates different categories, with larger red bubbles indicating a stronger relationship and smaller yellow bubbles indicating a weaker relationship. The grid lines and points are shown to help align the bubbles accurately.
+TEX Edit Distance for sample 70: 0.8871462345123291
+CrystalBLEU Score for sample 70: 0.0018789186954577281
+Sample 70 processing time: 52.84 seconds
+
+Processing sample 71/560 - Caption: This image depicts a mathematical diagram with a number line representing the x-axis. The x-axis is divided into segments with labels at specific points: \( x_{-3/2} \), \( L_{-2} \), \( x_{-1/2} \), \( L_{-1} \), \( x_{1/2} \), \( I_0 \), \( x_{3/2} \), \( I_1 \), and \( x_2 \). Above the x-axis, there are several labeled points: \( Q_{-2} \), \( Q_{-1} \), \( Q_R \), \( Q_L \), \( Q_0 \), and \( Q_1 \). The diagram includes two partial differential equations on either side of a vertical dashed line, with terms involving \( \partial Q \), \( S_1 \), \( S_2 \), \( \epsilon \), \( F_1(U) \), \( F_2(U) \), and \( V \). At the top, there is a condition \( \Psi(Q_R, Q_L) = 0 \).
+TEX Edit Distance for sample 71: 0.5979101657867432
+CrystalBLEU Score for sample 71: 0.0022475959039542338
+Sample 71 processing time: 30.02 seconds
+
+Processing sample 72/560 - Caption: The image shows a diagram with a centered text box at coordinates (0,2) containing the text "centered text at (0/2)". Below the text box, there is a vertical dashed line extending downwards. At the bottom of the dashed line, there are two horizontal lines extending left and right, each ending with a letter: "L" on the left and "R" on the right. The horizontal lines are solid and the vertical dashed line intersects them at their midpoint.
+TEX Edit Distance for sample 72: 0.5907500982284546
+CrystalBLEU Score for sample 72: 0.00237936322199766
+Sample 72 processing time: 13.24 seconds
+
+Processing sample 73/560 - Caption: This image depicts a Venn diagram with five overlapping regions, each labeled with a Greek letter. The diagram consists of four ellipses, each representing a different set. The labels are as follows:
+
+- The leftmost ellipse is labeled with "λ".
+- The topmost ellipse is labeled with "ν₃".
+- The middle ellipse is labeled with "ν₁".
+- The bottom ellipse is labeled with "ν₂".
+- The rightmost ellipse is labeled with "μ".
+- The outermost region, which encompasses all the ellipses, is labeled with "ν₄".
+
+The ellipses intersect in such a way that they create multiple overlapping regions, each representing the intersection of different sets. The labels are placed within the respective ellipses and intersections to indicate the different subsets formed by the overlaps.
+TEX Edit Distance for sample 73: 0.8263223171234131
+CrystalBLEU Score for sample 73: 0.002296425217894232
+Sample 73 processing time: 52.69 seconds
+
+Processing sample 74/560 - Caption: This image depicts a labeled tree diagram with nodes and edges. The central node is labeled \( \rho' \) and branches out in multiple directions. The diagram includes the following key features:
+
+1. **Horizontal Branch**:
+   - Extends left and right from \( \rho' \).
+   - Left nodes: \( \epsilon \), \( \sigma \), and \( \text{id}_N \).
+   - Right nodes: \( \epsilon \rho' \), \( \sigma \alpha_2 \), \( \epsilon \alpha_2 \), and \( \alpha_2 \).
+
+2. **Vertical Branch**:
+   - Extends upwards and downwards from \( \rho' \).
+   - Upward nodes: \( \epsilon \alpha_1' \), \( \sigma \alpha_1' \), and \( \alpha_1' \).
+   - Downward nodes: \( \epsilon \alpha_4' \), \( \sigma \alpha_4' \), and \( \alpha_4' \).
+
+3. **Diagonal Branches**:
+   - One branch extends diagonally upwards to the right from \( \rho' \) with nodes \( \epsilon \alpha_2' \), \( \sigma \alpha_2' \), and \( \alpha_2' \).
+   - Another branch extends diagonally downwards to the right from \( \rho' \) with nodes \( \epsilon \alpha_3 \), \( \sigma \alpha_3 \), and \( \alpha_3 \).
+
+4. **Node Labels**:
+   - Each node is labeled with a specific notation such as \( \epsilon \), \( \sigma \), \( \alpha \), and combinations thereof.
+
+This structure can be used to write the TikZ code by defining the coordinates for each node and drawing the connecting lines accordingly.
+TEX Edit Distance for sample 74: 0.8146550059318542
+CrystalBLEU Score for sample 74: 0.0021856326426085097
+Sample 74 processing time: 52.74 seconds
+
+Processing sample 75/560 - Caption: The image depicts a plot with three shaded regions, each labeled with numbers 1, 2, and 3. The regions are bounded by red lines, and the shading intensity increases from region 1 to region 3. A horizontal blue line intersects the plot at y = 1.5. The x-axis ranges from 0 to 8, and the y-axis ranges from 0 to 3. The red lines appear to be linear boundaries that converge towards the origin, creating the distinct regions. The plot is likely representing a feasible region or solution space for a set of inequalities.
+TEX Edit Distance for sample 75: 0.818558394908905
+CrystalBLEU Score for sample 75: 0.0021222722535206356
+Sample 75 processing time: 153.75 seconds
+
+Processing sample 76/560 - Caption: The image depicts a 3D plot of a series of concentric ellipsoids centered at the origin. The ellipsoids are shaded in varying shades of red, with the innermost ellipsoid being the darkest and the outermost being the lightest. There are three blue arrows representing the x, y, and z axes, originating from the center of the ellipsoids and extending outward in positive and negative directions. The arrows are labeled with arrowheads, indicating the direction of the axes. The overall visualization suggests a symmetrical distribution around the origin.
+TEX Edit Distance for sample 76: 0.8118055462837219
+CrystalBLEU Score for sample 76: 0.002094833449878432
+Sample 76 processing time: 71.47 seconds
+
+Processing sample 77/560 - Caption: The image depicts a geometric structure resembling a truncated icosahedron, with a blue fill color and red edges. The structure consists of a combination of hexagons and pentagons. The outer boundary is formed by a series of red edges, while the inner polygons are outlined in a lighter shade. The overall shape is spherical, with the polygons fitting together in a symmetrical pattern.
+
+This description should help in writing the TikZ code by focusing on the following elements:
+1. **Nodes and Coordinates**: Define the coordinates for the vertices of the polygons.
+2. **Polygons**: Use `\filldraw` or `\draw` commands to create the hexagons and pentagons.
+3. **Coloring**: Apply blue fill for the polygons and red for the edges.
+4. **Symmetry**: Ensure the polygons are arranged symmetrically to form the spherical shape.
+
+Here is a basic structure of the TikZ code to get started:
+
+```latex
+\documentclass{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+
+% Define the coordinates for the vertices
+% Example coordinates, adjust as needed
+\coordinate (A) at (0,0);
+\coordinate (B) at (1,0);
+\coordinate (C) at (1.5,0.87);
+\coordinate (D) at (1,1.73);
+\coordinate (E) at (0,1.73);
+\coordinate (F) at (-0.5,0.87);
+
+% Draw the polygons
+\filldraw[fill=blue, draw=red] (A) -- (B) -- (C) -- (D) -- (E) -- (F) -- cycle;
+
+% Repeat for other polygons
+% Add more coordinates and draw commands to complete the structure
+
+\end{tikzpicture}
+\end{document}
+```
+
+This code provides a starting point. You will need to add more coordinates and `\filldraw` commands to complete the entire structure as shown in the image.
+TEX Edit Distance for sample 77: 0.8417903184890747
+CrystalBLEU Score for sample 77: 0.0016916961755725486
+Sample 77 processing time: 52.85 seconds
+
+Processing sample 78/560 - Caption: The image depicts a graph composed of three main parts: a square on the left, a hexagon on the right, and a linear chain of five vertices connecting them. Each vertex is represented by a black dot, and edges are represented by straight lines connecting the vertices. The square and hexagon are regular polygons, and the linear chain connects the rightmost vertex of the square to the leftmost vertex of the hexagon.
+TEX Edit Distance for sample 78: 0.7923271059989929
+CrystalBLEU Score for sample 78: 0.0016489563541292422
+Sample 78 processing time: 53.02 seconds
+
+Processing sample 79/560 - Caption: The image depicts a cylindrical coordinate system with a cylindrical object oriented in 3D space. The cylinder is tilted and labeled with points and vectors. The key elements are:
+
+1. The cylinder is tilted and has a shaded surface.
+2. The cylinder has three orthogonal vectors originating from its surface labeled as **p**, **q**, and **r**.
+3. The cylinder is intersected by a vector **U** at an angle **θ** from the vertical axis (z-axis).
+4. An angle **φ** is marked between the vector **U** and the horizontal projection of the cylinder.
+5. The global coordinate system is shown with **x**, **y**, and **z** axes.
+6. A vector **g** is pointing downward, indicating the direction of gravity.
+
+This description should help in writing the TikZ code to recreate the figure.
+TEX Edit Distance for sample 79: 0.573305606842041
+CrystalBLEU Score for sample 79: 0.0018420055840734546
+Sample 79 processing time: 26.78 seconds
+
+Processing sample 80/560 - Caption: The image shows a single straight line with three parallel hash marks crossing it perpendicularly at the center. The line is drawn at an angle, not horizontal or vertical. The hash marks are evenly spaced and shorter than the main line. This figure can be used to represent a specific type of electrical component or a graphical notation in a diagram.
+
+To create this in TikZ, you would draw a line and then add three shorter perpendicular lines at the center of the main line.
+TEX Edit Distance for sample 80: 0.5213750600814819
+CrystalBLEU Score for sample 80: 0.0018651419693539052
+Sample 80 processing time: 4.63 seconds
+
+Processing sample 81/560 - Caption: This image depicts a complex directed graph with multiple nodes and edges. The nodes are labeled with combinations of letters and numbers, such as "1a", "2b", "3c", etc. The edges are directed, indicated by arrows, and are labeled with letters such as "a", "b", "c". The graph includes various loops, cycles, and connections between nodes, forming a network of paths. Some edges are thicker, suggesting a higher weight or importance. The overall structure appears to be intricate, with nodes connected in a non-linear, web-like fashion.
+
+To write the TikZ code for this image, you would need to:
+1. Define the nodes with their respective labels.
+2. Draw directed edges between the nodes with appropriate labels.
+3. Ensure some edges are thicker to indicate higher weight or importance.
+4. Arrange the nodes in a way that matches the layout of the graph.
+
+Here is a basic template to get you started with the TikZ code:
+
+```latex
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+
+\begin{document}
+\begin{tikzpicture}[->, >=Stealth, node distance=2cm, thick]
+
+% Define nodes
+\node (1a) {1a};
+\node (2b) [right of=1a] {2b};
+\node (3c) [below of=1a] {3c};
+% Add more nodes as needed
+
+% Define edges
+\draw (1a) -- (2b) node[midway, above] {a};
+\draw (2b) -- (3c) node[midway, right] {b};
+\draw (3c) -- (1a) node[midway, left] {c};
+% Add more edges as needed
+
+% Thicker edges
+\draw[very thick] (1a) -- (3c) node[midway, left] {a};
+
+\end{tikzpicture}
+\end{document}
+```
+
+You will need to expand this template by adding all the nodes and edges as per the graph in the image. Adjust the positions and distances to match the layout accurately.
+TEX Edit Distance for sample 81: 0.8282431960105896
+CrystalBLEU Score for sample 81: 0.0008788406291112243
+Sample 81 processing time: 53.85 seconds
+
+Processing sample 82/560 - Caption: The image consists of two subfigures labeled (a) and (b). 
+
+Subfigure (a) depicts a circular diagram divided into four regions by lines radiating from the center. The regions are labeled as follows: the top region is labeled "B", the left region is labeled "A", the bottom region is labeled "B", and the right region is labeled "C".
+
+Subfigure (b) shows a series of concentric circles with three points labeled on the outermost circle: "A'" on the left, "C'" on the right, and "B'" in the center. There is a vertical blue line passing through the center of the circles, connecting points "A'" and "C'".
+
+To create this figure using TikZ, you will need to use commands for drawing circles, lines, and labeling specific points.
+TEX Edit Distance for sample 82: 0.8424263000488281
+CrystalBLEU Score for sample 82: 0.0008412035454123549
+Sample 82 processing time: 52.55 seconds
+
+Processing sample 83/560 - Caption: The image depicts a sequence of nodes connected by directed arrows, representing a flow from one node to another. Each node is labeled with a variable (e.g., \( y_i \), \( y_{i-1} \), \( x_j \), \( y_{i-1} \)) and is enclosed in a dashed red circle. The arrows between the nodes are labeled with mathematical symbols (e.g., \( \sigma_1 \), \( \sigma_1^{-1} \), \( \sigma_0^{-1} \), \( \sigma_1 \), \( x_j^{-1} \), \( \sigma_0^{-1} \)). Below each node, there is a label indicating the column position (e.g., "2nd column", "1st column", "3rd column"). The nodes and arrows are arranged horizontally, with arrows pointing from left to right.
+
+This description can help in writing the TikZ code by identifying the nodes, their labels, the arrows connecting them, and the corresponding labels for the arrows and columns.
+TEX Edit Distance for sample 83: 0.5962556600570679
+CrystalBLEU Score for sample 83: 0.0008747433448575735
+Sample 83 processing time: 26.32 seconds
+
+Processing sample 84/560 - Caption: This image represents a grid with labeled points and curves intersecting at a central point. The grid is composed of squares with side lengths labeled as \(a_i\) and \(b_i\) (where \(i\) ranges from 1 to 4). The horizontal lines are labeled \(a_1, a_2, a_3, a_4\) from top to bottom, and the vertical lines are labeled \(b_1, b_2, b_3, b_4\) from left to right. The central intersection point is labeled \(X_{a2}\). Two curves, labeled \(\mathcal{L}_1\) and \(\mathcal{L}_2\), intersect at \(X_{a2}\). The curves extend through the grid, bending as they pass through the intersections of the grid lines.
+
+To generate this figure using TikZ, you would need to:
+1. Create a grid with labeled intersections.
+2. Draw the curves \(\mathcal{L}_1\) and \(\mathcal{L}_2\) intersecting at \(X_{a2}\).
+3. Label the grid lines and the intersection point.
+
+Here is a possible TikZ code structure to start with:
+
+```latex
+\documentclass{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+
+% Draw the grid
+\foreach \x in {1,2,3,4} {
+    \foreach \y in {1,2,3,4} {
+        \draw (\x, \y) -- (\x+1, \y);
+        \draw (\x, \y) -- (\x, \y+1);
+    }
+}
+
+% Label the grid lines
+\node at (1.5, 4.5) {$a_1$};
+\node at (2.5, 4.5) {$a_2$};
+\node at (3.5, 4.5) {$a_3$};
+\node at (4.5, 4.5) {$a_4$};
+
+\node at (0.5, 3.5) {$b_1$};
+\node at (0.5, 2.5) {$b_2$};
+\node at (0.5, 1.5) {$b_3$};
+\node at (0.5, 0.5) {$b_4$};
+
+% Draw the curves
+\draw[thick] (1,4) .. controls (2,3) and (3,2) .. (4,1);
+\draw[thick] (1,1) .. controls (2,2) and (3,3) .. (4,4);
+
+% Label the intersection point and curves
+\node at (2.5, 2.5) {$X_{a2}$};
+\node at (1.5, 3.5) {$\mathcal{L}_1$};
+\node at (3.5, 1.5) {$\mathcal{L}_2$};
+
+\end{tikzpicture}
+\end{document}
+```
+
+This code provides a basic structure to create the grid and curves, and you can adjust the positions and labels as needed to match the image more closely.
+TEX Edit Distance for sample 84: 0.5612830519676208
+CrystalBLEU Score for sample 84: 0.000992985659141347
+Sample 84 processing time: 20.92 seconds
+
+Processing sample 85/560 - Caption: This image is a scatter plot with a red line connecting the first two data points. The x-axis is labeled "Zeit" (Time) and ranges from 0 to 180 in increments of 15. The y-axis is labeled "Extinktion" (Extinction) and ranges from 1.272 to 1.29 in increments of 0.002. The data points are represented by black dots. The red line starts at the point (15, 1.282) and ends at the point (45, 1.278). The plot has a grid with both vertical and horizontal lines.
+TEX Edit Distance for sample 85: 0.5528818964958191
+CrystalBLEU Score for sample 85: 0.0010748985269199952
+Sample 85 processing time: 21.52 seconds
+
+Processing sample 86/560 - Caption: This image is a flow diagram illustrating the process of solving a MOMDP (Multi-Objective Markov Decision Process) using an algorithm. The diagram is divided into two phases: the "planning or learning phase" and the "execution phase." 
+
+1. On the left side, there is a label "MOMDP + utility function."
+2. An arrow points from this label to an oval labeled "algorithm," indicating that the algorithm processes the MOMDP and utility function.
+3. The oval is enclosed in a dashed box representing the "planning or learning phase."
+4. A dotted vertical line separates the "planning or learning phase" from the "execution phase."
+5. An arrow extends from the oval to the right side, pointing to a label "single solution," indicating the output of the algorithm.
+6. The "execution phase" label is placed below the arrow pointing to the "single solution."
+
+This description should help you write the corresponding TikZ code for this flow diagram.
+TEX Edit Distance for sample 86: 0.6328274011611938
+CrystalBLEU Score for sample 86: 0.0011426303294589076
+Sample 86 processing time: 13.06 seconds
+
+Processing sample 87/560 - Caption: The image depicts a directed graph with six nodes labeled A, B, C, D, E, and F arranged in a circular layout. Each pair of adjacent nodes is connected by two directed edges forming a bidirectional connection. The edges between the nodes are curved, creating an elliptical shape around each pair of connected nodes. The graph forms a closed loop, with the following pairs of nodes connected: (A, B), (B, C), (C, D), (D, E), (E, F), and (F, A).
+TEX Edit Distance for sample 87: 0.704909086227417
+CrystalBLEU Score for sample 87: 0.001280834807165226
+Sample 87 processing time: 20.78 seconds
+
+Processing sample 88/560 - Caption: This image depicts a bipartite graph with two sets of nodes, represented by two ellipses labeled \(J(L)\) and \(M(L)\). The nodes within these ellipses are connected to nodes outside the ellipses. The nodes are connected by edges, some of which are colored blue and red. The nodes \(j(a)\), \(j(b)\), \(m(a)\), and \(m(b)\) are positioned outside the ellipses, with \(j(a)\) and \(j(b)\) on the left and \(m(a)\) and \(m(b)\) on the right. The top and bottom nodes are colored red, while the left and right nodes are colored blue. The connections between the nodes form a network, with the ellipses representing subsets of the nodes. The central region between the ellipses is labeled \(R\).
+TEX Edit Distance for sample 88: 0.819765567779541
+CrystalBLEU Score for sample 88: 0.0011950973537402576
+Sample 88 processing time: 52.61 seconds
+
+Processing sample 89/560 - Caption: The image displays two horizontally aligned rectangles with rounded corners. Both rectangles have a red border and no fill color. The rectangles are separated by a small gap. The dimensions of the rectangles are identical.
+TEX Edit Distance for sample 89: 0.6267587542533875
+CrystalBLEU Score for sample 89: 0.0012068729417782623
+Sample 89 processing time: 4.73 seconds
+
+Processing sample 90/560 - Caption: The image consists of three horizontal bar charts, each representing different approaches to workload distribution over a series of days. 
+
+1. **Demand patterns**: The first chart shows the demand patterns for four workers (Worker 1, Worker 2, Worker 3, Worker 4) over six days. Each worker's workload is represented by a distinct color (cyan, purple, orange, pink). Overloading and underloading are indicated by striped patterns in red and green, respectively. Performance decrease is marked by a black border around the bars.
+
+2. **Classic approach**: The second chart illustrates the classic approach to workload distribution over the same period. The same color scheme and patterns are used to represent the workers and their workload statuses.
+
+3. **Behavior-aware approach**: The third chart displays the behavior-aware approach to workload distribution, again over the same period and using the same color scheme and patterns.
+
+Each chart has a legend at the top that explains the colors and patterns used. The x-axis represents the days, and the y-axis represents the workload intensity. The right side of each chart has a color-coded key indicating the risk levels associated with each approach.
+
+To write the TikZ code for this figure, you would need to create three separate bar charts with the specified colors and patterns, ensuring to include the legend and the risk indicator keys.
+TEX Edit Distance for sample 90: 0.8157368898391724
+CrystalBLEU Score for sample 90: 0.001112961905404972
+Sample 90 processing time: 52.75 seconds
+
+Processing sample 91/560 - Caption: This image represents a grid with labeled points and curves intersecting at a central point. The grid is composed of squares with side lengths labeled as \(a_i\) and \(b_i\) (where \(i\) ranges from 1 to 4). The horizontal lines are labeled \(a_1, a_2, a_3, a_4\) from top to bottom, and the vertical lines are labeled \(b_1, b_2, b_3, b_4\) from left to right. The central intersection point is labeled \(X_{a2}\). Two curves, labeled \(\mathcal{L}_1\) and \(\mathcal{L}_2\), intersect at \(X_{a2}\). The curves extend through the grid, bending as they pass through the intersections of the grid lines.
+
+To generate this figure using TikZ, you would need to:
+1. Create a grid with labeled intersections.
+2. Draw the curves \(\mathcal{L}_1\) and \(\mathcal{L}_2\) intersecting at \(X_{a2}\).
+3. Label the grid lines and the intersection point.
+
+Here is a possible TikZ code structure to start with:
+
+```latex
+\documentclass{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+
+% Draw the grid
+\foreach \x in {1,2,3,4} {
+    \foreach \y in {1,2,3,4} {
+        \draw (\x, \y) -- (\x+1, \y);
+        \draw (\x, \y) -- (\x, \y+1);
+    }
+}
+
+% Label the grid lines
+\node at (1.5, 4.5) {$a_1$};
+\node at (2.5, 4.5) {$a_2$};
+\node at (3.5, 4.5) {$a_3$};
+\node at (4.5, 4.5) {$a_4$};
+
+\node at (0.5, 3.5) {$b_1$};
+\node at (0.5, 2.5) {$b_2$};
+\node at (0.5, 1.5) {$b_3$};
+\node at (0.5, 0.5) {$b_4$};
+
+% Draw the curves
+\draw[thick] (1,4) .. controls (2,3) and (3,2) .. (4,1);
+\draw[thick] (1,1) .. controls (2,2) and (3,3) .. (4,4);
+
+% Label the intersection point and curves
+\node at (2.5, 2.5) {$X_{a2}$};
+\node at (1.5, 3.5) {$\mathcal{L}_1$};
+\node at (3.5, 1.5) {$\mathcal{L}_2$};
+
+\end{tikzpicture}
+\end{document}
+```
+
+This code provides a basic structure to create the grid and curves, and you can adjust the positions and labels as needed to match the image more closely.
+TEX Edit Distance for sample 91: 0.7996522784233093
+CrystalBLEU Score for sample 91: 0.0010651934493739541
+Sample 91 processing time: 52.93 seconds
+
+Processing sample 92/560 - Caption: This image is a line plot comparing the number of nonlinear iterations (y-axis) against the degrees of freedom (x-axis) on a logarithmic scale. The x-axis ranges from \(10^4\) to \(10^6\), and the y-axis ranges from 10 to 25. There are two lines: one in red representing "PPGD \(P_1\)" and one in blue representing "PPGD \(P_2\)". The legend is located in the upper right corner of the plot. The red line has square markers, and the blue line has circular markers. Both lines show a general upward trend as the degrees of freedom increase.
+TEX Edit Distance for sample 92: 0.8155043721199036
+CrystalBLEU Score for sample 92: 0.0010467805802475245
+Sample 92 processing time: 52.53 seconds
+
+Processing sample 93/560 - Caption: The image depicts a bipartite graph with multiple layers of nodes connected by edges. The graph consists of three main columns of nodes:
+
+1. The first column contains nodes labeled \( s_1^{(1)}, s_2^{(1)}, \ldots, s_W^{(1)} \).
+2. The second column contains nodes labeled \( s_1^{(2)}, s_2^{(2)}, \ldots, s_W^{(2)} \).
+3. The third column contains nodes labeled \( s_{T-1}^{(1)}, s_{T-1}^{(2)}, \ldots, s_{T-1}^{(W)} \).
+
+The nodes in the first column are connected to the nodes in the second column with solid lines, indicating direct connections. The nodes in the second column are connected to the nodes in the third column with dashed lines, indicating a different type of connection. The third column nodes are connected to a single node labeled \( \emptyset \) with solid lines.
+
+The connections between the nodes in the first and second columns are dense, suggesting a fully connected bipartite graph, while the connections between the nodes in the second and third columns are sparse, indicated by dashed lines.
+
+This description should help in writing the TikZ code to create this figure.
+TEX Edit Distance for sample 93: 0.8179811239242554
+CrystalBLEU Score for sample 93: 0.0010029574189924701
+Sample 93 processing time: 52.59 seconds
+
+Processing sample 94/560 - Caption: This image is a plot with a vertical axis labeled \(v\) and a horizontal axis labeled \(p\). The vertical axis has several marked points: \(\epsilon\) at the bottom, \(1/\epsilon^2\) in the middle, and \(v_{\text{max}}\) at the top. The horizontal axis has marked points: \(\epsilon^{20}\) near the origin and 1 at the far right. 
+
+There are three horizontal dashed lines: one at \(\epsilon\), one at \(1/\epsilon^2\), and one at \(v_{\text{max}}\). The region between the horizontal lines at \(\epsilon\) and \(1/\epsilon^2\) is shaded. 
+
+A vertical dashed line is drawn at \(p = \epsilon^{20}\), intersecting the horizontal dashed line at \(\epsilon\). The intersection is labeled \((1 + \epsilon)^k = v_i\).
+
+There are two sets of points labeled \(X_{v_i}\) and \(X_{v_i}^+\) on the horizontal line at \(1/\epsilon^2\). The first set \(X_{v_i}\) includes points \(Y_2, Y_3, Y_4, Y_5, Y_6\), and the second set \(X_{v_i}^+\) includes points \(Y_4, Y_5, Y_6, Y_7, Y_8, Y_9\). The points \(X_{v_i}\) and \(X_{v_i}^+\) are enclosed in curly braces.
+
+This description should help in writing the TikZ code to replicate the figure.
+TEX Edit Distance for sample 94: 0.8018162250518799
+CrystalBLEU Score for sample 94: 0.0009666253642957126
+Sample 94 processing time: 52.70 seconds
+
+Processing sample 95/560 - Caption: The image shows two separate line plots, each with blue line segments and points. Both plots share the same x-axis labels, ranging from \(v_0 - 2\sqrt{\epsilon}\) to \(v_0 + 2\sqrt{\epsilon}\), and y-axis labels, ranging from \(2v_0 - 4\sqrt{\epsilon}\) to \(2v_0 + 4\sqrt{\epsilon}\). The left plot contains a single line segment connecting two points, while the right plot contains three line segments connecting four points. The points and lines are plotted in blue.
+TEX Edit Distance for sample 95: 0.8271486759185791
+CrystalBLEU Score for sample 95: 0.0009168050965456275
+Sample 95 processing time: 55.85 seconds
+
+Processing sample 96/560 - Caption: The image is a state diagram for a remote controller. It consists of seven states: "Init," "read_LC_on," "check_LC_on_count," "read_LC_off," "check_LC_off_count," "check_data," and "read_data." The transitions between these states are labeled with conditions such as "pos_edge," "data=0," "LC_on counter out of range," "LC_off counter out of range," "data_counter = 31," and "data_counter /= 31." The initial state is "Init," and the diagram includes loops and transitions between states, indicating the flow of the state machine. The states are represented by circles, and the transitions are represented by arrows connecting these circles.
+TEX Edit Distance for sample 96: 0.7791343927383423
+CrystalBLEU Score for sample 96: 0.000883560779043916
+Sample 96 processing time: 53.00 seconds
+
+Processing sample 97/560 - Caption: The image depicts a graph with three distinct vertical layers of nodes, each layer containing nodes of a different color. The top layer consists of orange nodes, the middle layer consists of blue nodes, and the bottom layer consists of red nodes. Nodes are connected by black edges, forming a network with connections primarily between adjacent layers. The connections include both vertical and diagonal edges, creating a structured yet interconnected graph.
+
+This description can help in writing the TikZ code by specifying:
+1. The positions and colors of the nodes.
+2. The connections (edges) between the nodes.
+3. The overall layout of the graph.
+
+Here is a sample TikZ code snippet to create a similar graph:
+
+```latex
+\documentclass{standalone}
+\usepackage{tikz}
+
+\begin{document}
+\begin{tikzpicture}
+
+% Define node styles
+\tikzstyle{orange node}=[circle, fill=orange, minimum size=6pt, inner sep=0pt]
+\tikzstyle{blue node}=[circle, fill=blue, minimum size=6pt, inner sep=0pt]
+\tikzstyle{red node}=[circle, fill=red, minimum size=6pt, inner sep=0pt]
+
+% Draw nodes
+\node[orange node] (o1) at (0, 6) {};
+\node[orange node] (o2) at (0, 5) {};
+\node[orange node] (o3) at (0, 4) {};
+\node[orange node] (o4) at (0, 3) {};
+\node[orange node] (o5) at (1, 4) {};
+
+\node[blue node] (b1) at (0, 2) {};
+\node[blue node] (b2) at (0, 1) {};
+\node[blue node] (b3) at (1, 2) {};
+\node[blue node] (b4) at (1, 1) {};
+
+\node[red node] (r1) at (0, 0) {};
+\node[red node] (r2) at (1, 0) {};
+
+% Draw edges
+\draw (o1) -- (o2);
+\draw (o2) -- (o3);
+\draw (o3) -- (o4);
+\draw (o4) -- (b1);
+\draw (b1) -- (b2);
+\draw (b2) -- (r1);
+\draw (b4) -- (r2);
+
+\draw (o3) -- (b3);
+\draw (o4) -- (b4);
+\draw (b1) -- (b3);
+\draw (b2) -- (b4);
+
+\draw (o5) -- (b3);
+\draw (o5) -- (b4);
+
+\end{tikzpicture}
+\end{document}
+```
+
+This code will generate a graph similar to the one in the image, with nodes and edges placed accordingly.
+TEX Edit Distance for sample 97: 0.8201841115951538
+CrystalBLEU Score for sample 97: 0.0008700607303455339
+Sample 97 processing time: 52.61 seconds
+
+Processing sample 98/560 - Caption: The image shows a 2-3 move transformation in a knot diagram. On the left, there are two vertical strands labeled A and A' intersecting with three horizontal strands labeled B, B', and C. The intersections are marked with small circles. The right side of the image shows the result of the 2-3 move, where the two vertical strands are now connected by an additional vertical strand, creating three intersections with the horizontal strands labeled A, A', and C. The transformation is indicated by a rightward arrow labeled "2-3 move."
+TEX Edit Distance for sample 98: 0.6331149339675903
+CrystalBLEU Score for sample 98: 0.0008901704084259751
+Sample 98 processing time: 8.66 seconds
+
+Processing sample 99/560 - Caption: The image shows a hexagon with vertices marked by black dots. Two vertices, labeled \(P\) and \(Q\), are connected by a blue dashed line. The hexagon has two sides labeled \(l\) and \(m\). Additionally, there is a red dotted path connecting \(P\) to another vertex of the hexagon, forming a zigzag pattern. The blue dashed lines and the red dotted path intersect within the hexagon. 
+
+This description can help you write the TikZ code by providing the following details:
+1. Draw a hexagon with vertices marked.
+2. Label two vertices as \(P\) and \(Q\).
+3. Draw a blue dashed line connecting \(P\) and \(Q\).
+4. Label two sides of the hexagon as \(l\) and \(m\).
+5. Draw a red dotted zigzag path starting from \(P\) and connecting to another vertex of the hexagon.
+6. Ensure the blue dashed lines and red dotted path intersect within the hexagon.
+TEX Edit Distance for sample 99: 0.8089606165885925
+CrystalBLEU Score for sample 99: 0.0008718215402706617
+Sample 99 processing time: 52.45 seconds
+
+Processing sample 100/560 - Caption: The image depicts a block diagram with the following components:
+
+1. A leftward-pointing arrow at the left end, indicating an input.
+2. A green circle connected to the input arrow, representing a node.
+3. An oval loop starting and ending at the green circle, indicating feedback.
+4. A blue square connected to the right of the green circle, representing a block or system.
+5. Another green circle connected to the right of the blue square, indicating another node.
+6. A rightward-pointing arrow connected to the second green circle, indicating an output.
+7. A vertical arrow pointing upwards from the second green circle, indicating another output or signal.
+
+The connections between the components are represented by solid lines, and the arrows at both ends are dashed.
+
+This description should help you write the TikZ code for the diagram.
+TEX Edit Distance for sample 100: 0.5249766707420349
+CrystalBLEU Score for sample 100: 0.0009104730806182821
+Sample 100 processing time: 11.98 seconds
+
+Processing sample 101/560 - Caption: This image depicts a three-dimensional geometric representation involving three planes labeled \( IS \), \( IS-1 \), and \( IS-2 \). Each plane contains a triangular shape, and there are arrows connecting these shapes across the planes, indicating transformations or mappings. The planes are parallel and equally spaced along the vertical axis labeled \( t \). The triangular shapes are labeled \( D_{IS} \), \( D_{IS-1} \), and \( D_{IS-2} \) respectively. The arrows are annotated with labels such as \( \Delta V_{new} S \), \( r \), and \( r_1 \), suggesting vector transformations or shifts. The overall structure resembles a helical or spiral arrangement connecting the triangular shapes across the planes.
+
+To write the TikZ code for this figure, you would need to:
+1. Define the three planes and position them at different heights.
+2. Draw the triangular shapes on each plane.
+3. Add arrows connecting corresponding vertices of the triangles across the planes.
+4. Annotate the arrows with the provided labels.
+5. Ensure the planes are labeled \( IS \), \( IS-1 \), and \( IS-2 \) along the vertical axis \( t \).
+TEX Edit Distance for sample 101: 0.8075655102729797
+CrystalBLEU Score for sample 101: 0.0008686039014888249
+Sample 101 processing time: 52.52 seconds
+
+Processing sample 102/560 - Caption: This image is a line plot depicting the average Signal-to-Interference-plus-Noise Ratio (SINR) in decibels (dB) as a function of training steps. The x-axis represents the training steps ranging from 0 to 20k, while the y-axis represents the average SINR ranging from 12 to 16 dB. Multiple lines, each representing different models or algorithms (GQN, GQN(GAT), DQN, GAQ, N-DQN, H), show the progression of average SINR over the training steps. Each line is color-coded and has a corresponding legend entry. Shaded areas around the lines indicate the variability or confidence intervals of the measurements.
+TEX Edit Distance for sample 102: 0.7669503092765808
+CrystalBLEU Score for sample 102: 0.0006771761038638185
+Sample 102 processing time: 49.50 seconds
+
+Processing sample 103/560 - Caption: The image is a bar chart displaying the number of students on the y-axis and a range of scores on the x-axis. The x-axis is labeled with score intervals, each represented by a blue bar. Two specific score intervals are highlighted with different colors: one in red and one in green. The chart includes a legend at the bottom indicating that the green bar represents "ChatGPT," the red bar represents "BingChat," and the blue bars represent "Estudiantes evaluados." The y-axis is labeled with a logarithmic scale (10^0 to 10^4), and each bar has a numerical value displayed at its top.
+TEX Edit Distance for sample 103: 0.837350070476532
+CrystalBLEU Score for sample 103: 0.0006124053390108609
+Sample 103 processing time: 52.76 seconds
+
+Processing sample 104/560 - Caption: The image depicts a sequence of state transition diagrams, commonly used in automata theory or state machines. The diagrams show states represented by circles, with transitions between states indicated by directed edges labeled with transition symbols. Some states are shaded, possibly indicating special states such as initial or accepting states. The diagrams appear to be arranged in two rows, with three diagrams in each row. Each diagram shows different configurations of states and transitions, illustrating the progression or changes in the state machine.
+
+Key elements to note for the TikZ code:
+1. Circles representing states, some of which are shaded.
+2. Directed edges (arrows) between states, labeled with transition symbols.
+3. Self-loop transitions on some states.
+4. The arrangement of diagrams in a 2x3 grid format.
+
+This information will help in structuring the TikZ code to accurately represent the state transition diagrams.
+TEX Edit Distance for sample 104: 0.8136703968048096
+CrystalBLEU Score for sample 104: 0.0005758280290362812
+Sample 104 processing time: 52.64 seconds
+
+Processing sample 105/560 - Caption: The image depicts a graph with seven vertices and ten edges. The vertices are arranged in a symmetrical pattern resembling a bowtie or hourglass shape. The central vertex is connected to all other vertices. On the left side, three vertices form a triangle, with each vertex connected to the central vertex. On the right side, three vertices form another triangle, with each vertex also connected to the central vertex. The left and right triangles are not directly connected to each other. The vertices are represented by black dots, and the edges are represented by black lines.
+TEX Edit Distance for sample 105: 0.5964714884757996
+CrystalBLEU Score for sample 105: 0.0005999358425292325
+Sample 105 processing time: 11.04 seconds
+
+Processing sample 106/560 - Caption: The image depicts a geometric representation of complex numbers. It shows a series of ellipses increasing in size along the positive real axis, labeled as \(|z|^2\). The ellipses are aligned along a line starting from the origin (0), which is marked by a solid black dot. The x-axis is labeled with \(|z|^2\) to indicate the squared magnitude of the complex number \(z\). The ellipses are positioned at regular intervals along this axis, with their major axes increasing linearly.
+TEX Edit Distance for sample 106: 0.6686828136444092
+CrystalBLEU Score for sample 106: 0.0006002046357392751
+Sample 106 processing time: 20.01 seconds
+
+Processing sample 107/560 - Caption: The image depicts a block diagram with the following components:
+
+1. A leftward-pointing arrow at the left end, indicating an input.
+2. A green circle connected to the input arrow, representing a node.
+3. An oval loop starting and ending at the green circle, indicating feedback.
+4. A blue square connected to the right of the green circle, representing a block or system.
+5. Another green circle connected to the right of the blue square, indicating another node.
+6. A rightward-pointing arrow connected to the second green circle, indicating an output.
+7. A vertical arrow pointing upwards from the second green circle, indicating another output or signal.
+
+The connections between the components are represented by solid lines, and the arrows at both ends are dashed.
+
+This description should help you write the TikZ code for the diagram.
+TEX Edit Distance for sample 107: 0.8168948888778687
+CrystalBLEU Score for sample 107: 0.0005764233543380101
+Sample 107 processing time: 52.59 seconds
+
+Processing sample 108/560 - Caption: This image depicts a number line with a central point labeled as λ. To the left of λ, there are several points labeled β1, β2, β3, β4, β5, and so on, extending towards the left. To the right of λ, there are points labeled α1, α2, α3, α4, α5, and so on, extending towards the right. The points are evenly spaced, and the line extends beyond the labeled points with tick marks indicating additional positions. The leftmost and rightmost points, β1 and α1, are marked with orange vertical lines.
+
+To create this in TikZ, you would need to:
+1. Draw a horizontal line.
+2. Mark the central point with λ.
+3. Evenly space and label points to the left of λ as β1, β2, β3, β4, β5, etc.
+4. Evenly space and label points to the right of λ as α1, α2, α3, α4, α5, etc.
+5. Add tick marks between the labeled points.
+6. Highlight the leftmost and rightmost points with orange vertical lines.
+TEX Edit Distance for sample 108: 0.5674731135368347
+CrystalBLEU Score for sample 108: 0.0006120056741972385
+Sample 108 processing time: 19.04 seconds
+
+Processing sample 109/560 - Caption: This image consists of two subplots arranged vertically, each with a logarithmic x-axis labeled as \(\omega / T_s\). The top subplot is a Bode magnitude plot with the y-axis labeled as \(20 \log \left( \frac{Z_w}{A_w \sqrt{T_s}} \right) \) in decibels (dB). The plot shows two curves, one in blue and one in red, both decreasing with increasing frequency. The bottom subplot is a Bode phase plot with the y-axis labeled as \(\angle Z_{zw}\) in degrees. This plot also shows two curves, one in blue and one in red, with the phase starting at 0 degrees and decreasing to -90 degrees. Both subplots have grid lines for better readability.
+TEX Edit Distance for sample 109: 0.8506174087524414
+CrystalBLEU Score for sample 109: 0.0005051890696697907
+Sample 109 processing time: 52.77 seconds
+
+Processing sample 110/560 - Caption: The image depicts a rectangular diagram with several nested boxes and labeled distances. The outer rectangle has dimensions of 5 cm by 2 cm. Inside the rectangle, there are three columns of nested boxes, each containing numbers. The leftmost column has boxes labeled "123", "12", and "1", stacked vertically. The middle column has boxes labeled "12" and "123", stacked vertically. The rightmost column has two boxes labeled "1", stacked vertically. There are two horizontal red arrows indicating distances: one labeled "1 cm" between the leftmost and middle columns, and another labeled "4 cm" between the middle and rightmost columns. The arrows are marked with asterisks at their starting points and arrows at their endpoints.
+TEX Edit Distance for sample 110: 0.709598183631897
+CrystalBLEU Score for sample 110: 0.0005737339728578448
+Sample 110 processing time: 31.75 seconds
+
+Processing sample 111/560 - Caption: The image consists of three subfigures, each depicting a different type of grid with a central black dot surrounded by other dots arranged in specific patterns. 
+
+- Subfigure (a) shows "The square grid" with the central dot surrounded by dots forming a diamond shape.
+- Subfigure (b) shows "The king grid" with the central dot surrounded by dots forming a square shape.
+- Subfigure (c) shows "The triangular grid" with the central dot surrounded by dots forming a hexagonal shape.
+
+Each subfigure is labeled below with its respective grid type. The dots are evenly spaced, and the arrangement of the dots in each grid type is distinct.
+TEX Edit Distance for sample 111: 0.5490463376045227
+CrystalBLEU Score for sample 111: 0.0005773011623291486
+Sample 111 processing time: 22.86 seconds
+
+Processing sample 112/560 - Caption: The image depicts a circular arrangement of squares, evenly spaced along the circumference of the circle. Each square is oriented such that its sides are parallel to the radius of the circle at its position. There are two thick black lines intersecting the circle at different points, with one set of three small black dots connecting one of the thick lines to the nearest square. The overall structure resembles a gear or a circular array of components with additional markings.
+TEX Edit Distance for sample 112: 0.8415170907974243
+CrystalBLEU Score for sample 112: 0.0005677293783654406
+Sample 112 processing time: 52.53 seconds
+
+Processing sample 113/560 - Caption: The image shows two hexagonal grids, one smaller and one larger, with labeled vertices. The smaller hexagon on the left is filled with a light green color and labeled "σp+1" at the bottom. Its vertices are labeled with the numbers 1 and 2. The larger hexagon on the right, labeled "σk'+p+1" at the bottom, is composed of multiple smaller hexagons. The central hexagon is also filled with light green and labeled with the number 2, while the surrounding hexagons are filled with light yellow and labeled with numbers in the form of "2k'-1", "2k'", "2k'+1", etc. An arrow labeled "k" points from the smaller hexagon to the larger hexagon, indicating a transformation or expansion process.
+TEX Edit Distance for sample 113: 0.8305412530899048
+CrystalBLEU Score for sample 113: 0.0005264059103660369
+Sample 113 processing time: 52.57 seconds
+
+Processing sample 114/560 - Caption: The image consists of three parts, each displaying a waveform. 
+
+1. The top part shows a single red sinusoidal wave.
+2. The middle part displays a blue modulated wave with an envelope that increases and then decreases symmetrically, forming a diamond shape.
+3. The bottom part shows another blue modulated wave similar to the middle one but with a different modulation frequency or amplitude.
+
+The overall layout is vertical, with each waveform centered horizontally. The middle waveform has a label "with sine pulse" centered below it.
+TEX Edit Distance for sample 114: 0.7023521661758423
+CrystalBLEU Score for sample 114: 0.0005435243965424071
+Sample 114 processing time: 12.36 seconds
+
+Processing sample 115/560 - Caption: This image depicts a circle labeled \( L \) with a point on its circumference from which several vectors emanate. The vectors are labeled as follows:
+- \( \nabla^F \tilde{\rho}_1 \) pointing upwards and to the right.
+- \( \nabla^Z \rho_1 \) pointing directly to the right.
+- \( W \) pointing horizontally to the right.
+- \( \nabla^F \tilde{\rho}_2 \) pointing downwards and to the left.
+- \( \nabla^Z \rho_2 \) pointing directly downwards.
+
+The circle \( L \) is centered at the origin of the vectors. The vectors are labeled with their respective names at their heads.
+TEX Edit Distance for sample 115: 0.49547362327575684
+CrystalBLEU Score for sample 115: 0.0005953725462148047
+Sample 115 processing time: 16.48 seconds
+
+Processing sample 116/560 - Caption: The image shows a blank bar chart with the x-axis labeled "Grades" ranging from 40 to 100 in increments of 10, and the y-axis labeled "Frequency" ranging from 0 to 14 in increments of 2. The chart is currently empty, with no bars or data points plotted.
+TEX Edit Distance for sample 116: 0.7319609522819519
+CrystalBLEU Score for sample 116: 0.0006689613239082464
+Sample 116 processing time: 23.18 seconds
+
+Processing sample 117/560 - Caption: The image shows a diagram with a black irregular shape and a black circle containing the letter "X" inside it. The circle overlaps the irregular shape. Around these elements, there is a dashed red rectangle representing a bounding box. The title "Normal bounding box" is written above the diagram.
+
+To create this in TikZ, you would need to:
+1. Draw the irregular shape.
+2. Draw the circle with the letter "X" inside it.
+3. Draw the dashed red bounding box around these elements.
+4. Add the title text above the diagram.
+
+Here is a sample TikZ code to get you started:
+
+```latex
+\documentclass{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+
+% Title
+\node at (0, 4) {\textbf{Normal bounding box}};
+
+% Irregular shape (approximated as an ellipse here)
+\draw (0, 0) ellipse (0.5 and 1);
+
+% Circle with "X" inside
+\draw[thick] (0.5, -0.5) circle (0.5);
+\node at (0.5, -0.5) {\textbf{X}};
+
+% Bounding box
+\draw[red, dashed] (-1, -2) rectangle (1, 2);
+
+\end{tikzpicture}
+\end{document}
+```
+
+This code will create a simple approximation of the described diagram. You can adjust the coordinates and dimensions as needed to match the exact appearance.
+TEX Edit Distance for sample 117: 0.6097855567932129
+CrystalBLEU Score for sample 117: 0.0006736310966726095
+Sample 117 processing time: 5.18 seconds
+
+Processing sample 118/560 - Caption: The image consists of two separate directed graphs. The left graph has three nodes labeled "000", "010", and "100". The node "000" has a self-loop and two outgoing edges pointing to "010" and "100". The right graph has six nodes labeled "000", "001", "011", "101", "110", and "111". The edges are as follows: "000" to "001", "001" to "011", "011" to "111", "111" to "110", "110" to "101", and "101" to "011". 
+
+This description should help in writing the TikZ code to recreate the image.
+TEX Edit Distance for sample 118: 0.7207254767417908
+CrystalBLEU Score for sample 118: 0.0008838014604530194
+Sample 118 processing time: 50.26 seconds
+
+Processing sample 119/560 - Caption: The image is a diagram with four nodes, each containing text and connected vertically. The nodes are color-coded and contain descriptions of different LaTeX packages. The first node is red and labeled "Latex," describing it as a program specialized in document preparation. The second node is light blue and labeled "Musixtex," describing it as a LaTeX package specialized in music. The third node is purple and labeled "Tikz," describing it as a LaTeX package specialized in vector graphics. The fourth node is green and labeled "Beamer," describing it as a LaTeX package specialized in presentations. There is also a hyperlink on the top left labeled "¿Qué es Musixtex?" and a bulleted list with three items labeled "Some text A," "Some text B," and "Some text C."
+
+This description should help you write the TikZ code for the diagram.
+TEX Edit Distance for sample 119: 0.6633465886116028
+CrystalBLEU Score for sample 119: 0.0008722400740587762
+Sample 119 processing time: 31.39 seconds
+
+Processing sample 120/560 - Caption: This image appears to be a complex Feynman diagram, commonly used in particle physics to represent interactions between particles. The diagram consists of multiple vertical lines, each representing a particle propagating through time. These vertical lines are connected by wavy lines, which typically represent the exchange of gauge bosons (such as photons or gluons). Additionally, there are dashed lines indicating possible intermediate states or interactions.
+
+Key elements to note for writing the TikZ code:
+1. **Vertical Lines**: Representing particles propagating through time.
+2. **Wavy Lines**: Connecting the vertical lines, representing the exchange of gauge bosons.
+3. **Dashed Lines**: Indicating intermediate states or interactions.
+4. **Repetition**: The pattern repeats multiple times horizontally.
+
+To create this diagram in TikZ, you would use the `feynmp` or `tikz-feynman` package, which are specifically designed for drawing Feynman diagrams. You would define the vertices (interaction points) and edges (propagators and gauge bosons) accordingly.
+TEX Edit Distance for sample 120: 0.831508994102478
+CrystalBLEU Score for sample 120: 0.0008376216640805603
+Sample 120 processing time: 52.55 seconds
+
+Processing sample 121/560 - Caption: This image depicts a three-dimensional geometric representation involving three planes labeled \( IS \), \( IS-1 \), and \( IS-2 \). Each plane contains a triangular shape, and there are arrows connecting these shapes across the planes, indicating transformations or mappings. The planes are parallel and equally spaced along the vertical axis labeled \( t \). The triangular shapes are labeled \( D_{IS} \), \( D_{IS-1} \), and \( D_{IS-2} \) respectively. The arrows are annotated with labels such as \( \Delta V_{new} S \), \( r \), and \( r_1 \), suggesting vector transformations or shifts. The overall structure resembles a helical or spiral arrangement connecting the triangular shapes across the planes.
+
+To write the TikZ code for this figure, you would need to:
+1. Define the three planes and position them at different heights.
+2. Draw the triangular shapes on each plane.
+3. Add arrows connecting corresponding vertices of the triangles across the planes.
+4. Annotate the arrows with the provided labels.
+5. Ensure the planes are labeled \( IS \), \( IS-1 \), and \( IS-2 \) along the vertical axis \( t \).
+TEX Edit Distance for sample 121: 0.8094906806945801
+CrystalBLEU Score for sample 121: 0.0008075053755566251
+Sample 121 processing time: 52.60 seconds
+
+Processing sample 122/560 - Caption: This image consists of two subplots arranged vertically, each with a logarithmic x-axis labeled as \(\omega / T_s\). The top subplot is a Bode magnitude plot with the y-axis labeled as \(20 \log \left( \frac{Z_w}{A_w \sqrt{T_s}} \right) \) in decibels (dB). The plot shows two curves, one in blue and one in red, both decreasing with increasing frequency. The bottom subplot is a Bode phase plot with the y-axis labeled as \(\angle Z_{zw}\) in degrees. This plot also shows two curves, one in blue and one in red, with the phase starting at 0 degrees and decreasing to -90 degrees. Both subplots have grid lines for better readability.
+TEX Edit Distance for sample 122: 0.8958141207695007
+CrystalBLEU Score for sample 122: 0.00047369291595141536
+Sample 122 processing time: 53.72 seconds
+
+Processing sample 123/560 - Caption: This image depicts a directed graph with 11 nodes and multiple directed edges. The nodes are arranged in four rows. The first row has one node (1), the second row has four nodes (2, 3, 4, 5), the third row has three nodes (6, 7, 9), and the fourth row has three nodes (8, 10, 11). Each node is connected to several other nodes with directed edges, indicated by arrows. The edges are directed from left to right and from top to bottom, forming a complex network of connections. Nodes are labeled with numbers inside circles, and edges are represented by arrows pointing from one node to another.
+
+To write the TikZ code for this graph, you would need to:
+1. Define the nodes with their respective positions.
+2. Draw the directed edges between the nodes.
+
+Example TikZ code structure:
+```latex
+\begin{tikzpicture}
+  % Define nodes
+  \node (1) at (0,3) {1};
+  \node (2) at (2,4) {2};
+  \node (3) at (2,3) {3};
+  \node (4) at (2,2) {4};
+  \node (5) at (2,5) {5};
+  \node (6) at (4,3) {6};
+  \node (7) at (4,2) {7};
+  \node (8) at (6,5) {8};
+  \node (9) at (4,4) {9};
+  \node (10) at (6,2) {10};
+  \node (11) at (6,3) {11};
+  
+  % Draw edges
+  \draw[->] (1) -- (2);
+  \draw[->] (1) -- (3);
+  \draw[->] (1) -- (4);
+  \draw[->] (2) -- (5);
+  \draw[->] (2) -- (6);
+  \draw[->] (3) -- (6);
+  \draw[->] (3) -- (7);
+  \draw[->] (4) -- (7);
+  \draw[->] (5) -- (8);
+  \draw[->] (5) -- (9);
+  \draw[->] (6) -- (8);
+  \draw[->] (6) -- (9);
+  \draw[->] (6) -- (10);
+  \draw[->] (7) -- (10);
+  \draw[->] (8) -- (11);
+  \draw[->] (9) -- (11);
+  \draw[->] (10) -- (11);
+\end{tikzpicture}
+```
+TEX Edit Distance for sample 123: 0.8084117770195007
+CrystalBLEU Score for sample 123: 0.00046452916016733375
+Sample 123 processing time: 52.45 seconds
+
+Processing sample 124/560 - Caption: This image depicts a hierarchical tree structure with nodes and directed edges. The nodes are represented as ellipses containing variables, and the edges are labeled with corresponding identifiers. The structure can be described as follows:
+
+1. The root node contains variables \(x_1, x_2\) and is labeled \(T_{12}\).
+2. The root node has a single child node containing variables \(x_1, x_3\) and is labeled \(T_{13}\).
+3. The node \(T_{13}\) branches into two child nodes:
+   - The left child node contains variables \(x_3, x_4, x_5\) and is labeled \(T_{345}\).
+   - The right child node contains variables \(x_3, x_7\) and is labeled \(S_{37}\).
+4. The node \(T_{345}\) has a single child node containing variables \(x_4, x_5, x_6\) and is labeled \(S_{45}\).
+5. The node \(S_{37}\) has a single child node containing variables \(x_7, x_8, x_9\) and is labeled \(S_{78}\).
+
+This hierarchical structure can be represented using TikZ in LaTeX with nodes and edges, where each node is an ellipse containing the specified variables, and each edge is directed and labeled accordingly.
+TEX Edit Distance for sample 124: 0.5728733539581299
+CrystalBLEU Score for sample 124: 0.0005338931350179252
+Sample 124 processing time: 20.31 seconds
+
+Processing sample 125/560 - Caption: This image depicts a flowchart with several nodes and directed edges, labeled with mathematical expressions. The nodes are labeled \(C_1\), \(C_2\), \(C_3\), \(C_4\), \(C_{2i-1}\), \(C_{2i}\), \(C_{2i+1}\), and \(C_G\). The edges between the nodes are labeled with various mathematical expressions, such as \(\frac{n^2}{\pi} + 1\), \(1\), and \(2\). The nodes \(C_1\), \(C_2\), \(C_4\), \(C_{2i}\), and \(C_G\) are connected in a linear sequence with solid lines, while nodes \(C_3\), \(C_{2i-1}\), and \(C_{2i+1}\) are connected to \(C_2\), \(C_4\), and \(C_{2i}\) respectively with dashed lines. Each node also has a label below it, such as \(\frac{n-1}{2}\), \(\frac{n-3}{2}\), \(\frac{n-(2i-1)}{2}\), and \(\frac{n-(2i+1)}{2}\).
+TEX Edit Distance for sample 125: 0.5566330552101135
+CrystalBLEU Score for sample 125: 0.0005814772495652729
+Sample 125 processing time: 19.78 seconds
+
+Processing sample 126/560 - Caption: The image shows a 2-3 move transformation in a knot diagram. On the left, there are two vertical strands labeled A and A' intersecting with three horizontal strands labeled B, B', and C. The intersections are marked with small circles. The right side of the image shows the result of the 2-3 move, where the two vertical strands are now connected by an additional vertical strand, creating three intersections with the horizontal strands labeled A, A', and C. The transformation is indicated by a rightward arrow labeled "2-3 move."
+TEX Edit Distance for sample 126: 0.8030415773391724
+CrystalBLEU Score for sample 126: 0.0005590646132730118
+Sample 126 processing time: 52.58 seconds
+
+Processing sample 127/560 - Caption: This image shows a triangle with vertices labeled 1, 2, and 3. The vertices are represented by pink circles with black numbers inside. The edges of the triangle are colored differently: the edge between vertices 1 and 2, and the edge between vertices 1 and 3 are blue, while the edge between vertices 2 and 3 is black. The vertices are arranged in a way that forms an equilateral triangle.
+TEX Edit Distance for sample 127: 0.5813225507736206
+CrystalBLEU Score for sample 127: 0.0005809628605841573
+Sample 127 processing time: 10.03 seconds
+
+Processing sample 128/560 - Caption: The image consists of a 2x5 grid of nodes. Each node is represented by an orange dot and is labeled with a mathematical or alphabetical character. The labels for the nodes in the first row are "n", "n-1", "c", and "g" from left to right. The labels for the nodes in the second row are "n", "n-1", "h", and "y" from left to right. The nodes are aligned vertically and horizontally, forming a clear grid structure.
+TEX Edit Distance for sample 128: 0.5965653657913208
+CrystalBLEU Score for sample 128: 0.0005942236957813618
+Sample 128 processing time: 16.48 seconds
+
+Processing sample 129/560 - Caption: "Binary tree with multiple levels, where each node splits into two child nodes. The tree expands horizontally with increasing levels, creating a dense network of lines connecting the nodes. The tree appears to be symmetric and continues infinitely to the right."
+TEX Edit Distance for sample 129: 0.5558212399482727
+CrystalBLEU Score for sample 129: 0.00047702466417851795
+Sample 129 processing time: 10.63 seconds
+
+Processing sample 130/560 - Caption: The image shows a plot with two sets of points connected by lines. The first set of points is located on the left side of the plot, with x-coordinates ranging from approximately -4 to 0 and y-coordinates ranging from 1 to 4. The second set of points is located on the right side of the plot, with x-coordinates ranging from approximately 500 to 508 and y-coordinates ranging from 1 to 4. Each set of points forms a roughly V-shaped pattern. The points are marked with black dots, and the lines connecting them are straight. The x-axis ranges from -4 to 508, and the y-axis ranges from 1 to 4.
+TEX Edit Distance for sample 130: 0.5904730558395386
+CrystalBLEU Score for sample 130: 0.0005004394832574331
+Sample 130 processing time: 14.31 seconds
+
+Processing sample 131/560 - Caption: The image depicts a flowchart with nodes and arrows, illustrating a timeline from 2020 to 2070. The flowchart consists of the following elements:
+
+1. Three purple rectangular nodes labeled "DDmg," "DT1," and "DCS" aligned vertically on the left side.
+2. An orange circular node labeled "CT1" positioned to the right of "DT1."
+3. A purple rectangular node labeled "DT2" to the right of "CT1."
+4. A green diamond-shaped node labeled "subproblem" to the right of "DT2."
+5. Arrows connecting "DDmg" to "DT2," "DT1" to "CT1," "CT1" to "DT2," and "DCS" to "subproblem."
+6. A horizontal timeline at the bottom, marked with intervals from 2020 to 2070.
+
+This description should help in creating the TikZ code for the given flowchart.
+TEX Edit Distance for sample 131: 0.8207799196243286
+CrystalBLEU Score for sample 131: 0.00048562516996924625
+Sample 131 processing time: 52.58 seconds
+
+Processing sample 132/560 - Caption: "An 8-petal rose curve (rhodonea curve) centered at the origin, with each petal symmetrically distributed around the center. The petals are created using the polar equation \( r = \sin(4\theta) \), where \( \theta \) ranges from 0 to \( 2\pi \)."
+TEX Edit Distance for sample 132: 0.5355624556541443
+CrystalBLEU Score for sample 132: 0.0004908570666194193
+Sample 132 processing time: 11.25 seconds
+
+Processing sample 133/560 - Caption: The image depicts a circle with two labeled points and directional arrows. The circle has two distinct points marked with black dots. The point on the left is labeled as "C2" and the point on the right is labeled as "C1". The circle is oriented with arrows indicating a counterclockwise direction. The arrows are evenly spaced around the circle, showing the flow from "C2" to "C1".
+TEX Edit Distance for sample 133: 0.6428571343421936
+CrystalBLEU Score for sample 133: 0.0005129568569140484
+Sample 133 processing time: 13.31 seconds
+
+Processing sample 134/560 - Caption: This image consists of two sets of diagrams labeled (A) and (B), each depicting a transformation of a tree structure. 
+
+In diagram (A):
+- The left side shows a tree with nodes labeled 1, 2, 3, and 4, with node 4 connected to node 3 through a wavy line.
+- An arrow points to the right, indicating a transformation.
+- The right side shows the transformed tree, where node 4 is now connected to node 2 through a wavy line.
+- Between the trees is a set notation indicating the transformation: {1, 2, 3, 4} transforms to {1, 2', 3, 4}.
+
+In diagram (B):
+- The left side shows a tree with nodes labeled 1, 2, 3, and 4, with node 4 connected to node 3 through a wavy line.
+- An arrow points to the right, indicating a transformation.
+- The right side shows the transformed tree, where node 4 is now connected to node 2 through a wavy line.
+- Between the trees is a set notation indicating the transformation: {1, 2, 3, 4} transforms to {1, 2', 3, 4}.
+
+Both diagrams (A) and (B) illustrate similar transformations of tree structures with different initial configurations. The wavy lines represent specific connections between nodes that change during the transformation.
+TEX Edit Distance for sample 134: 0.5833921432495117
+CrystalBLEU Score for sample 134: 0.0006105783146993969
+Sample 134 processing time: 55.40 seconds
+
+Processing sample 135/560 - Caption: This image is a line graph showing the Spearman correlation on the STS-B Development Set across different layers (0 to 13) for various models. The x-axis represents the layer number, and the y-axis represents the Spearman correlation, ranging from 0.45 to 0.85. There are four lines plotted:
+
+1. An orange line labeled "MLM" that remains constant at a low correlation value across all layers.
+2. A blue line with square markers labeled "Stop" that fluctuates, peaking around layer 9.
+3. A red line with triangle markers labeled "w/o Stop" that also fluctuates, peaking around layer 9 but slightly lower than the "Stop" line.
+4. A black dashed line labeled "SimCSE*" that remains constant at a higher correlation value across all layers.
+
+The legend is located inside the plot area, slightly to the right of the center, and includes the labels for each line with corresponding colors and markers.
+
+This description can help in writing the TikZ code by providing details about the axes, the range of values, the different lines, their colors, markers, and the legend placement.
+TEX Edit Distance for sample 135: 0.8856397867202759
+CrystalBLEU Score for sample 135: 0.0005978481869549362
+Sample 135 processing time: 52.63 seconds
+
+Processing sample 136/560 - Caption: This image depicts a geometric figure with several key elements:
+
+1. **Axes**: There are two black lines intersecting at the origin, forming four quadrants.
+2. **Circle**: A red dashed circle centered at the origin.
+3. **Sector**: A shaded blue sector in the first quadrant.
+4. **Arrows**: Two red arrows originating from the origin, labeled as \( \tau_1 \) and \( \tau_\Delta \), pointing towards the boundary of the blue sector.
+5. **Labels**: The circle is labeled as \( S_a \) in red, and the blue sector is labeled as \( a^+ \) in blue.
+
+This description should help in writing the TikZ code to recreate the figure.
+TEX Edit Distance for sample 136: 0.8083725571632385
+CrystalBLEU Score for sample 136: 0.0005873333463160117
+Sample 136 processing time: 52.54 seconds
+
+Processing sample 137/560 - Caption: This image depicts a finite state machine with four states: \( q_0 \), \( q_1 \), \( q_2 \), and \( q_3 \). The initial state is \( q_0 \), indicated by an arrow pointing to it labeled "start". The final state is \( q_3 \), represented by a double circle. The transitions between states are labeled with the corresponding input symbols. The transitions are as follows:
+
+- From \( q_0 \) to \( q_1 \) on input \( a \).
+- From \( q_0 \) to \( q_2 \) on input \( b \).
+- From \( q_0 \) to \( q_3 \) on inputs \( c \) and \( d \).
+- From \( q_1 \) to itself on input \( b \).
+- From \( q_1 \) to \( q_3 \) on inputs \( c \) and \( d \).
+- From \( q_1 \) to \( q_0 \) on input \( a \).
+- From \( q_2 \) to itself on input \( c \).
+- From \( q_2 \) to \( q_3 \) on input \( d \).
+- From \( q_2 \) to \( q_0 \) on input \( b \).
+- From \( q_3 \) to \( q_1 \) on input \( a \).
+
+This description should help in writing the TikZ code to generate this finite state machine diagram.
+TEX Edit Distance for sample 137: 0.5508391857147217
+CrystalBLEU Score for sample 137: 0.0006545801101698233
+Sample 137 processing time: 23.40 seconds
+
+Processing sample 138/560 - Caption: This image depicts a shaded, irregular shape with a curved right boundary and a straight left boundary. The left boundary has a vertical length of 40 units, while the top and bottom horizontal boundaries are 5 units and 8 units long, respectively. The shape is divided into seven horizontal sections, each labeled with a numerical value (6.4, 7.5, 8.4, 9.0, 9.3, 9.2, 8.8). Each section has a horizontal arrow pointing from left to right, indicating the direction and possibly the magnitude of a certain quantity. The entire shape is filled with a blue color. The numerical labels are centered within each section, and the arrows span the width of the shape at each section.
+TEX Edit Distance for sample 138: 0.6745478510856628
+CrystalBLEU Score for sample 138: 0.0006560538101873044
+Sample 138 processing time: 9.43 seconds
+
+Processing sample 139/560 - Caption: This image is a time-division diagram illustrating the operation of a relay and an IRS (Intelligent Reflecting Surface) over a period \( T \). The diagram is divided into two main parts: the first part, with duration \( \tau \), is dedicated to the energy waveform, and the second part, with duration \( T - \tau \), is dedicated to the information waveform. 
+
+- The top row labeled "Relay" shows the sequence of operations for the relay: 
+  - During the energy waveform period (\( \tau \)), the relay receives energy from \( \{T_k\}_{k=1}^K \).
+  - During the information waveform period (\( T - \tau \)), the relay receives information from \( \{R_k\}_{k=1}^K \) and transmits it.
+
+- The bottom row labeled "IRS" shows the sequence of operations for the IRS:
+  - During the energy waveform period (\( \tau \)), the IRS receives energy from \( \{T_k\}_{k=1}^K \).
+  - During the information waveform period (\( T - \tau \)), the IRS receives information from \( \{R_k\}_{k=1}^K \) and reflects it.
+
+The diagram uses different colors to distinguish between the energy waveform period (green) and the information waveform period (red). The time intervals are clearly marked, and arrows indicate the direction of signal flow.
+TEX Edit Distance for sample 139: 0.8166104555130005
+CrystalBLEU Score for sample 139: 0.0006342535183724884
+Sample 139 processing time: 52.64 seconds
+
+Processing sample 140/560 - Caption: The image consists of two pentagonal graphs side by side. The left graph is labeled with binary strings at each vertex and edges are labeled with \(e_1, e_2, e_3, e_4, e_5\). The central vertex is labeled \(u\). The right graph is the same pentagonal graph but without any labels; it has thicker edges and vertices are represented as small circles. Both graphs have the same structure, with vertices connected in a pentagonal pattern and additional internal edges forming a star-like shape within the pentagon.
+TEX Edit Distance for sample 140: 0.8238241076469421
+CrystalBLEU Score for sample 140: 0.0006066566253024675
+Sample 140 processing time: 52.58 seconds
+
+Processing sample 141/560 - Caption: The image shows two hexagonal grids, one smaller and one larger, with labeled vertices. The smaller hexagon on the left is filled with a light green color and labeled "σp+1" at the bottom. Its vertices are labeled with the numbers 1 and 2. The larger hexagon on the right, labeled "σk'+p+1" at the bottom, is composed of multiple smaller hexagons. The central hexagon is also filled with light green and labeled with the number 2, while the surrounding hexagons are filled with light yellow and labeled with numbers in the form of "2k'-1", "2k'", "2k'+1", etc. An arrow labeled "k" points from the smaller hexagon to the larger hexagon, indicating a transformation or expansion process.
+TEX Edit Distance for sample 141: 0.5425422191619873
+CrystalBLEU Score for sample 141: 0.0006254504492577172
+Sample 141 processing time: 10.80 seconds
+
+Processing sample 142/560 - Caption: The image consists of two circular diagrams side by side, each divided into six equal sectors labeled from 1 to 6. The left circle has a dashed horizontal line across the diameter labeled with a delta symbol (Δ) and a subscript "n". The right circle is identical to the left but without the dashed line. Both circles share a common center with lines radiating out to the circumference, dividing the circles into equal parts. The sectors are numbered in a clockwise manner starting from the bottom left.
+TEX Edit Distance for sample 142: 0.6396793127059937
+CrystalBLEU Score for sample 142: 0.000652285347136396
+Sample 142 processing time: 12.82 seconds
+
+Processing sample 143/560 - Caption: This image depicts two sequences of connected circles containing various labels. The circles are connected by lines, with some connections represented by dashed lines. The top sequence consists of 11 circles labeled as follows from left to right: \(C_i\), \(C_iC_i\), \(C_i\), \(C_iL_j\), \(L_jX_i\), \(X_i\), \(X_iL_j\), \(L_j\), \(L_jC_i\), \(C_i\), \(C_iC_i\). The bottom sequence consists of 7 circles labeled as follows from left to right: \(C_i\), \(C_iC_i\), \(C_i\), \(C_iL_j\), \(L_jX_i\), \(X_i\). The first and last circles in both sequences are connected by dashed lines to indicate a continuation or a boundary.
+TEX Edit Distance for sample 143: 0.8133078217506409
+CrystalBLEU Score for sample 143: 0.0006296942169036745
+Sample 143 processing time: 52.59 seconds
+
+Processing sample 144/560 - Caption: This image contains a row of three equally sized rectangular images aligned horizontally. Above the center image, there is a small rectangular text box with the label "some text". Each image is labeled with the word "Image" in the center. The layout is symmetrical with equal spacing between the images.
+
+Caption for TikZ code:
+- Three horizontally aligned rectangles representing images.
+- A small rectangular text box centered above the middle image.
+- Each rectangle contains the text "Image" centered within it.
+TEX Edit Distance for sample 144: 0.6326048374176025
+CrystalBLEU Score for sample 144: 0.0006400652826681799
+Sample 144 processing time: 6.84 seconds
+
+Processing sample 145/560 - Caption: This image depicts a directed graph with multiple nodes and edges. The nodes are labeled with lowercase letters from 'a' to 'n'. The graph consists of three disconnected components:
+
+1. The first component includes nodes 'b' and 'a' with a directed edge from 'b' to 'a'.
+2. The second component includes nodes 'g', 'f', and 'e' with directed edges from 'g' to 'f' and from 'f' to 'e'.
+3. The third component is more complex, including nodes 'c', 'd', 'e', 'h', 'i', 'j', 'k', 'l', 'm', and 'n'. The directed edges are as follows:
+   - 'n' to 'c'
+   - 'n' to 'm'
+   - 'c' to 'd'
+   - 'c' to 'l'
+   - 'd' to 'e'
+   - 'e' to 'j'
+   - 'j' to 'h'
+   - 'h' to 'i'
+   - 'i' to 'k'
+   - 'l' to 'h'
+   - 'l' to 'i'
+
+The nodes are arranged in a hierarchical manner, with 'n' at the top and 'e', 'j', and 'k' at the bottom. The edges indicate the direction of the relationships between the nodes.
+TEX Edit Distance for sample 145: 0.5549810528755188
+CrystalBLEU Score for sample 145: 0.000707144301122818
+Sample 145 processing time: 25.49 seconds
+
+Processing sample 146/560 - Caption: This image depicts a complex directed graph with multiple nodes and edges. The nodes are labeled with combinations of letters and numbers, such as "1a", "2b", "3c", etc. The edges are directed, indicated by arrows, and are labeled with letters such as "a", "b", "c". The graph includes various loops, cycles, and connections between nodes, forming a network of paths. Some edges are thicker, suggesting a higher weight or importance. The overall structure appears to be intricate, with nodes connected in a non-linear, web-like fashion.
+
+To write the TikZ code for this image, you would need to:
+1. Define the nodes with their respective labels.
+2. Draw directed edges between the nodes with appropriate labels.
+3. Ensure some edges are thicker to indicate higher weight or importance.
+4. Arrange the nodes in a way that matches the layout of the graph.
+
+Here is a basic template to get you started with the TikZ code:
+
+```latex
+\documentclass{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+
+\begin{document}
+\begin{tikzpicture}[->, >=Stealth, node distance=2cm, thick]
+
+% Define nodes
+\node (1a) {1a};
+\node (2b) [right of=1a] {2b};
+\node (3c) [below of=1a] {3c};
+% Add more nodes as needed
+
+% Define edges
+\draw (1a) -- (2b) node[midway, above] {a};
+\draw (2b) -- (3c) node[midway, right] {b};
+\draw (3c) -- (1a) node[midway, left] {c};
+% Add more edges as needed
+
+% Thicker edges
+\draw[very thick] (1a) -- (3c) node[midway, left] {a};
+
+\end{tikzpicture}
+\end{document}
+```
+
+You will need to expand this template by adding all the nodes and edges as per the graph in the image. Adjust the positions and distances to match the layout accurately.
+TEX Edit Distance for sample 146: 0.8283840417861938
+CrystalBLEU Score for sample 146: 0.0004205354604051253
+Sample 146 processing time: 53.65 seconds
+
+Processing sample 147/560 - Caption: This image depicts a mathematical diagram with several key elements and annotations:
+
+1. A dashed curve that intersects itself, forming a loop at the top left corner.
+2. Four points labeled as \( a \), \( b \), \( c \), and \( d \) along the curve and lines.
+3. Three solid lines extending from points on the curve, labeled with mathematical expressions:
+   - The line from point \( a \) is labeled \( \mathcal{L}(s + t \sum_{i=0}^{k-1} 2^{-i/5}) N^{2/3} / (L-1) N^{2k+1} \).
+   - The line from point \( b \) is labeled \( \mathcal{L}(s + t \sum_{i=0}^{k-1} 2^{-i/5}) N^{2/3} / (L+1) N^{2k+1} \).
+   - The line from point \( c \) is labeled \( \mathcal{L}(s + t \sum_{i=0}^{k} 2^{-i/5}) N^{2/3} / L N^{2k+1} \).
+4. A horizontal dashed line connecting points \( a \) and \( b \).
+
+This caption provides a detailed description of the elements in the image, which will be useful for writing the TikZ code to recreate the diagram.
+slurmstepd: error: *** JOB 9450995 ON cn263 CANCELLED AT 2024-11-17T14:12:12 ***

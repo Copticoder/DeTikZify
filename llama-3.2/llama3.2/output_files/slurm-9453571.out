@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/scratch/oe2015/ai_project/DeTikZify/detikzify/evaluate/eval_normal.py", line 4, in <module>
+    from transformers import AutoConfig, MllamaForCausalLM
+ModuleNotFoundError: No module named 'transformers'

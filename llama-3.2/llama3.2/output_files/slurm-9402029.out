@@ -1,0 +1,22 @@
+2024-11-09 21:06:54,223 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2024-11-09 21:06:54,311 - WARNING - The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
+cuda
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:03<00:12,  3.14s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:05<00:07,  2.56s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:08<00:05,  2.68s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:10<00:02,  2.49s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:10<00:00,  1.84s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:10<00:00,  2.20s/it]
+2024-11-09 21:07:09,897 - INFO - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2024-11-09 21:07:09,897 - INFO - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-11-09 21:07:09,897 - INFO - NumExpr defaulting to 8 threads.
+2024-11-09 21:07:10,308 - INFO - PyTorch version 2.3.0 available.
+/scratch/oe2015/conda-envs/greedy/lib/python3.8/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: Metric `Kernel Inception Distance` will save all extracted features in buffer. For large datasets this may lead to large memory footprint.
+  warnings.warn(*args, **kwargs)  # noqa: B028
+bbbbb
+bbbbb
+Dataset({
+    features: ['caption', 'code', 'image', 'pdf', 'uri', 'origin', 'date'],
+    num_rows: 94532
+})
+Traceback (most recent call last):
+  File "run.py", line 174, in <module>
+    generated_code = generate_tikz_code(image, caption)
+  File "run.py", line 108, in generate_tikz_code
+    image_bytes = image['bytes']
+TypeError: 'PngImageFile' object is not subscriptable

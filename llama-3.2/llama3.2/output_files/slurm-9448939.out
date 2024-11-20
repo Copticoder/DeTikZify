@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/scratch/oe2015/ai_project/DeTikZify/detikzify/evaluate/omar.py", line 13, in <module>
+    torch_dtype=torch.bfloat16,
+NameError: name 'torch' is not defined

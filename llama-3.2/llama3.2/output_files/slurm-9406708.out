@@ -1,0 +1,1486 @@
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]
+Loading checkpoint shards:  20%|██        | 1/5 [00:06<00:25,  6.48s/it]
+Loading checkpoint shards:  40%|████      | 2/5 [00:08<00:12,  4.05s/it]
+Loading checkpoint shards:  60%|██████    | 3/5 [00:11<00:06,  3.24s/it]
+Loading checkpoint shards:  80%|████████  | 4/5 [00:13<00:02,  2.92s/it]
+Loading checkpoint shards: 100%|██████████| 5/5 [00:14<00:00,  2.07s/it]
+Loading checkpoint shards: 100%|██████████| 5/5 [00:14<00:00,  2.82s/it]
+WARNING:accelerate.big_modeling:You shouldn't move a model that is dispatched using accelerate hooks.
+WARNING:accelerate.utils.other:Detected kernel version 4.18.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+trainable params: 8,519,680 || all params: 10,682,017,315 || trainable%: 0.0798
+#############################
+base_model.model.vision_model.class_embedding False
+base_model.model.vision_model.patch_embedding.weight False
+base_model.model.vision_model.gated_positional_embedding.gate False
+base_model.model.vision_model.gated_positional_embedding.embedding False
+base_model.model.vision_model.gated_positional_embedding.tile_embedding.weight False
+base_model.model.vision_model.pre_tile_positional_embedding.gate False
+base_model.model.vision_model.pre_tile_positional_embedding.embedding.weight False
+base_model.model.vision_model.post_tile_positional_embedding.gate False
+base_model.model.vision_model.post_tile_positional_embedding.embedding.weight False
+base_model.model.vision_model.layernorm_pre.weight False
+base_model.model.vision_model.layernorm_pre.bias False
+base_model.model.vision_model.layernorm_post.weight False
+base_model.model.vision_model.layernorm_post.bias False
+base_model.model.vision_model.transformer.layers.0.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.0.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.0.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.0.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.0.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.0.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.0.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.0.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.0.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.0.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.0.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.0.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.0.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.0.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.0.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.0.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.1.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.1.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.1.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.1.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.1.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.1.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.1.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.1.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.1.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.1.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.1.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.1.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.1.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.1.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.1.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.1.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.2.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.2.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.2.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.2.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.2.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.2.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.2.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.2.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.2.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.2.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.2.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.2.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.2.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.2.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.2.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.2.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.3.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.3.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.3.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.3.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.3.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.3.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.3.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.3.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.3.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.3.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.3.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.3.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.3.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.3.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.3.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.3.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.4.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.4.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.4.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.4.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.4.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.4.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.4.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.4.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.4.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.4.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.4.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.4.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.4.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.4.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.4.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.4.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.5.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.5.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.5.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.5.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.5.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.5.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.5.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.5.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.5.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.5.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.5.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.5.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.5.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.5.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.5.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.5.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.6.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.6.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.6.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.6.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.6.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.6.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.6.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.6.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.6.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.6.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.6.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.6.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.6.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.6.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.6.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.6.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.7.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.7.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.7.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.7.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.7.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.7.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.7.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.7.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.7.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.7.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.7.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.7.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.7.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.7.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.7.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.7.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.8.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.8.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.8.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.8.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.8.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.8.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.8.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.8.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.8.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.8.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.8.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.8.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.8.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.8.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.8.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.8.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.9.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.9.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.9.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.9.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.9.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.9.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.9.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.9.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.9.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.9.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.9.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.9.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.9.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.9.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.9.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.9.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.10.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.10.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.10.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.10.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.10.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.10.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.10.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.10.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.10.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.10.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.10.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.10.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.10.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.10.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.10.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.10.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.11.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.11.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.11.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.11.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.11.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.11.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.11.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.11.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.11.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.11.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.11.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.11.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.11.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.11.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.11.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.11.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.12.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.12.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.12.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.12.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.12.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.12.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.12.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.12.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.12.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.12.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.12.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.12.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.12.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.12.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.12.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.12.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.13.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.13.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.13.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.13.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.13.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.13.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.13.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.13.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.13.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.13.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.13.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.13.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.13.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.13.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.13.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.13.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.14.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.14.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.14.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.14.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.14.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.14.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.14.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.14.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.14.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.14.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.14.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.14.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.14.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.14.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.14.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.14.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.15.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.15.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.15.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.15.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.15.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.15.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.15.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.15.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.15.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.15.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.15.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.15.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.15.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.15.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.15.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.15.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.16.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.16.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.16.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.16.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.16.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.16.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.16.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.16.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.16.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.16.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.16.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.16.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.16.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.16.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.16.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.16.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.17.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.17.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.17.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.17.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.17.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.17.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.17.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.17.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.17.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.17.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.17.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.17.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.17.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.17.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.17.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.17.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.18.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.18.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.18.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.18.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.18.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.18.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.18.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.18.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.18.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.18.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.18.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.18.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.18.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.18.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.18.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.18.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.19.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.19.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.19.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.19.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.19.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.19.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.19.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.19.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.19.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.19.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.19.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.19.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.19.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.19.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.19.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.19.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.20.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.20.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.20.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.20.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.20.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.20.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.20.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.20.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.20.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.20.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.20.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.20.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.20.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.20.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.20.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.20.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.21.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.21.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.21.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.21.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.21.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.21.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.21.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.21.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.21.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.21.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.21.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.21.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.21.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.21.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.21.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.21.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.22.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.22.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.22.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.22.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.22.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.22.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.22.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.22.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.22.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.22.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.22.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.22.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.22.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.22.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.22.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.22.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.23.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.23.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.23.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.23.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.23.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.23.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.23.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.23.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.23.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.23.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.23.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.23.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.23.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.23.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.23.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.23.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.24.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.24.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.24.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.24.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.24.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.24.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.24.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.24.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.24.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.24.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.24.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.24.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.24.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.24.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.24.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.24.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.25.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.25.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.25.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.25.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.25.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.25.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.25.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.25.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.25.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.25.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.25.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.25.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.25.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.25.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.25.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.25.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.26.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.26.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.26.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.26.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.26.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.26.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.26.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.26.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.26.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.26.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.26.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.26.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.26.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.26.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.26.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.26.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.27.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.27.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.27.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.27.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.27.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.27.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.27.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.27.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.27.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.27.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.27.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.27.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.27.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.27.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.27.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.27.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.28.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.28.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.28.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.28.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.28.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.28.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.28.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.28.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.28.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.28.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.28.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.28.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.28.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.28.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.28.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.28.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.29.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.29.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.29.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.29.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.29.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.29.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.29.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.29.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.29.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.29.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.29.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.29.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.29.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.29.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.29.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.29.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.30.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.30.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.30.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.30.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.30.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.30.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.30.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.30.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.30.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.30.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.30.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.30.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.30.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.30.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.30.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.30.post_attention_layernorm.bias False
+base_model.model.vision_model.transformer.layers.31.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.31.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.31.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.31.self_attn.k_proj.weight False
+base_model.model.vision_model.transformer.layers.31.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.transformer.layers.31.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.transformer.layers.31.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.transformer.layers.31.self_attn.o_proj.weight False
+base_model.model.vision_model.transformer.layers.31.mlp.fc1.weight False
+base_model.model.vision_model.transformer.layers.31.mlp.fc1.bias False
+base_model.model.vision_model.transformer.layers.31.mlp.fc2.weight False
+base_model.model.vision_model.transformer.layers.31.mlp.fc2.bias False
+base_model.model.vision_model.transformer.layers.31.input_layernorm.weight False
+base_model.model.vision_model.transformer.layers.31.input_layernorm.bias False
+base_model.model.vision_model.transformer.layers.31.post_attention_layernorm.weight False
+base_model.model.vision_model.transformer.layers.31.post_attention_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.0.gate_attn False
+base_model.model.vision_model.global_transformer.layers.0.gate_ffn False
+base_model.model.vision_model.global_transformer.layers.0.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.0.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.0.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.0.self_attn.k_proj.weight False
+base_model.model.vision_model.global_transformer.layers.0.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.0.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.0.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.0.self_attn.o_proj.weight False
+base_model.model.vision_model.global_transformer.layers.0.mlp.fc1.weight False
+base_model.model.vision_model.global_transformer.layers.0.mlp.fc1.bias False
+base_model.model.vision_model.global_transformer.layers.0.mlp.fc2.weight False
+base_model.model.vision_model.global_transformer.layers.0.mlp.fc2.bias False
+base_model.model.vision_model.global_transformer.layers.0.input_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.0.input_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.0.post_attention_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.0.post_attention_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.1.gate_attn False
+base_model.model.vision_model.global_transformer.layers.1.gate_ffn False
+base_model.model.vision_model.global_transformer.layers.1.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.1.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.1.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.1.self_attn.k_proj.weight False
+base_model.model.vision_model.global_transformer.layers.1.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.1.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.1.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.1.self_attn.o_proj.weight False
+base_model.model.vision_model.global_transformer.layers.1.mlp.fc1.weight False
+base_model.model.vision_model.global_transformer.layers.1.mlp.fc1.bias False
+base_model.model.vision_model.global_transformer.layers.1.mlp.fc2.weight False
+base_model.model.vision_model.global_transformer.layers.1.mlp.fc2.bias False
+base_model.model.vision_model.global_transformer.layers.1.input_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.1.input_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.1.post_attention_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.1.post_attention_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.2.gate_attn False
+base_model.model.vision_model.global_transformer.layers.2.gate_ffn False
+base_model.model.vision_model.global_transformer.layers.2.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.2.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.2.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.2.self_attn.k_proj.weight False
+base_model.model.vision_model.global_transformer.layers.2.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.2.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.2.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.2.self_attn.o_proj.weight False
+base_model.model.vision_model.global_transformer.layers.2.mlp.fc1.weight False
+base_model.model.vision_model.global_transformer.layers.2.mlp.fc1.bias False
+base_model.model.vision_model.global_transformer.layers.2.mlp.fc2.weight False
+base_model.model.vision_model.global_transformer.layers.2.mlp.fc2.bias False
+base_model.model.vision_model.global_transformer.layers.2.input_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.2.input_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.2.post_attention_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.2.post_attention_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.3.gate_attn False
+base_model.model.vision_model.global_transformer.layers.3.gate_ffn False
+base_model.model.vision_model.global_transformer.layers.3.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.3.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.3.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.3.self_attn.k_proj.weight False
+base_model.model.vision_model.global_transformer.layers.3.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.3.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.3.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.3.self_attn.o_proj.weight False
+base_model.model.vision_model.global_transformer.layers.3.mlp.fc1.weight False
+base_model.model.vision_model.global_transformer.layers.3.mlp.fc1.bias False
+base_model.model.vision_model.global_transformer.layers.3.mlp.fc2.weight False
+base_model.model.vision_model.global_transformer.layers.3.mlp.fc2.bias False
+base_model.model.vision_model.global_transformer.layers.3.input_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.3.input_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.3.post_attention_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.3.post_attention_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.4.gate_attn False
+base_model.model.vision_model.global_transformer.layers.4.gate_ffn False
+base_model.model.vision_model.global_transformer.layers.4.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.4.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.4.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.4.self_attn.k_proj.weight False
+base_model.model.vision_model.global_transformer.layers.4.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.4.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.4.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.4.self_attn.o_proj.weight False
+base_model.model.vision_model.global_transformer.layers.4.mlp.fc1.weight False
+base_model.model.vision_model.global_transformer.layers.4.mlp.fc1.bias False
+base_model.model.vision_model.global_transformer.layers.4.mlp.fc2.weight False
+base_model.model.vision_model.global_transformer.layers.4.mlp.fc2.bias False
+base_model.model.vision_model.global_transformer.layers.4.input_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.4.input_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.4.post_attention_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.4.post_attention_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.5.gate_attn False
+base_model.model.vision_model.global_transformer.layers.5.gate_ffn False
+base_model.model.vision_model.global_transformer.layers.5.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.5.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.5.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.5.self_attn.k_proj.weight False
+base_model.model.vision_model.global_transformer.layers.5.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.5.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.5.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.5.self_attn.o_proj.weight False
+base_model.model.vision_model.global_transformer.layers.5.mlp.fc1.weight False
+base_model.model.vision_model.global_transformer.layers.5.mlp.fc1.bias False
+base_model.model.vision_model.global_transformer.layers.5.mlp.fc2.weight False
+base_model.model.vision_model.global_transformer.layers.5.mlp.fc2.bias False
+base_model.model.vision_model.global_transformer.layers.5.input_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.5.input_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.5.post_attention_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.5.post_attention_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.6.gate_attn False
+base_model.model.vision_model.global_transformer.layers.6.gate_ffn False
+base_model.model.vision_model.global_transformer.layers.6.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.6.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.6.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.6.self_attn.k_proj.weight False
+base_model.model.vision_model.global_transformer.layers.6.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.6.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.6.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.6.self_attn.o_proj.weight False
+base_model.model.vision_model.global_transformer.layers.6.mlp.fc1.weight False
+base_model.model.vision_model.global_transformer.layers.6.mlp.fc1.bias False
+base_model.model.vision_model.global_transformer.layers.6.mlp.fc2.weight False
+base_model.model.vision_model.global_transformer.layers.6.mlp.fc2.bias False
+base_model.model.vision_model.global_transformer.layers.6.input_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.6.input_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.6.post_attention_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.6.post_attention_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.7.gate_attn False
+base_model.model.vision_model.global_transformer.layers.7.gate_ffn False
+base_model.model.vision_model.global_transformer.layers.7.self_attn.q_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.7.self_attn.q_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.7.self_attn.q_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.7.self_attn.k_proj.weight False
+base_model.model.vision_model.global_transformer.layers.7.self_attn.v_proj.base_layer.weight False
+base_model.model.vision_model.global_transformer.layers.7.self_attn.v_proj.lora_A.default.weight False
+base_model.model.vision_model.global_transformer.layers.7.self_attn.v_proj.lora_B.default.weight False
+base_model.model.vision_model.global_transformer.layers.7.self_attn.o_proj.weight False
+base_model.model.vision_model.global_transformer.layers.7.mlp.fc1.weight False
+base_model.model.vision_model.global_transformer.layers.7.mlp.fc1.bias False
+base_model.model.vision_model.global_transformer.layers.7.mlp.fc2.weight False
+base_model.model.vision_model.global_transformer.layers.7.mlp.fc2.bias False
+base_model.model.vision_model.global_transformer.layers.7.input_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.7.input_layernorm.bias False
+base_model.model.vision_model.global_transformer.layers.7.post_attention_layernorm.weight False
+base_model.model.vision_model.global_transformer.layers.7.post_attention_layernorm.bias False
+base_model.model.language_model.model.embed_tokens.weight False
+base_model.model.language_model.model.layers.0.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.0.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.0.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.0.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.0.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.0.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.0.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.0.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.0.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.0.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.0.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.0.input_layernorm.weight False
+base_model.model.language_model.model.layers.0.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.1.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.1.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.1.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.1.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.1.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.1.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.1.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.1.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.1.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.1.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.1.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.1.input_layernorm.weight False
+base_model.model.language_model.model.layers.1.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.2.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.2.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.2.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.2.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.2.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.2.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.2.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.2.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.2.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.2.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.2.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.2.input_layernorm.weight False
+base_model.model.language_model.model.layers.2.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.3.cross_attn_attn_gate False
+base_model.model.language_model.model.layers.3.cross_attn_mlp_gate False
+base_model.model.language_model.model.layers.3.cross_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.3.cross_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.3.cross_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.3.cross_attn.k_proj.weight False
+base_model.model.language_model.model.layers.3.cross_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.3.cross_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.3.cross_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.3.cross_attn.o_proj.weight False
+base_model.model.language_model.model.layers.3.cross_attn.q_norm.weight False
+base_model.model.language_model.model.layers.3.cross_attn.k_norm.weight False
+base_model.model.language_model.model.layers.3.input_layernorm.weight False
+base_model.model.language_model.model.layers.3.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.3.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.3.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.3.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.4.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.4.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.4.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.4.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.4.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.4.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.4.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.4.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.4.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.4.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.4.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.4.input_layernorm.weight False
+base_model.model.language_model.model.layers.4.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.5.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.5.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.5.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.5.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.5.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.5.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.5.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.5.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.5.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.5.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.5.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.5.input_layernorm.weight False
+base_model.model.language_model.model.layers.5.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.6.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.6.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.6.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.6.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.6.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.6.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.6.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.6.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.6.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.6.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.6.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.6.input_layernorm.weight False
+base_model.model.language_model.model.layers.6.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.7.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.7.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.7.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.7.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.7.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.7.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.7.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.7.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.7.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.7.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.7.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.7.input_layernorm.weight False
+base_model.model.language_model.model.layers.7.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.8.cross_attn_attn_gate False
+base_model.model.language_model.model.layers.8.cross_attn_mlp_gate False
+base_model.model.language_model.model.layers.8.cross_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.8.cross_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.8.cross_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.8.cross_attn.k_proj.weight False
+base_model.model.language_model.model.layers.8.cross_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.8.cross_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.8.cross_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.8.cross_attn.o_proj.weight False
+base_model.model.language_model.model.layers.8.cross_attn.q_norm.weight False
+base_model.model.language_model.model.layers.8.cross_attn.k_norm.weight False
+base_model.model.language_model.model.layers.8.input_layernorm.weight False
+base_model.model.language_model.model.layers.8.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.8.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.8.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.8.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.9.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.9.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.9.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.9.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.9.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.9.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.9.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.9.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.9.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.9.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.9.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.9.input_layernorm.weight False
+base_model.model.language_model.model.layers.9.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.10.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.10.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.10.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.10.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.10.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.10.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.10.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.10.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.10.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.10.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.10.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.10.input_layernorm.weight False
+base_model.model.language_model.model.layers.10.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.11.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.11.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.11.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.11.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.11.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.11.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.11.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.11.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.11.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.11.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.11.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.11.input_layernorm.weight False
+base_model.model.language_model.model.layers.11.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.12.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.12.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.12.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.12.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.12.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.12.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.12.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.12.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.12.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.12.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.12.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.12.input_layernorm.weight False
+base_model.model.language_model.model.layers.12.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.13.cross_attn_attn_gate False
+base_model.model.language_model.model.layers.13.cross_attn_mlp_gate False
+base_model.model.language_model.model.layers.13.cross_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.13.cross_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.13.cross_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.13.cross_attn.k_proj.weight False
+base_model.model.language_model.model.layers.13.cross_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.13.cross_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.13.cross_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.13.cross_attn.o_proj.weight False
+base_model.model.language_model.model.layers.13.cross_attn.q_norm.weight False
+base_model.model.language_model.model.layers.13.cross_attn.k_norm.weight False
+base_model.model.language_model.model.layers.13.input_layernorm.weight False
+base_model.model.language_model.model.layers.13.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.13.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.13.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.13.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.14.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.14.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.14.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.14.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.14.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.14.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.14.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.14.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.14.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.14.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.14.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.14.input_layernorm.weight False
+base_model.model.language_model.model.layers.14.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.15.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.15.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.15.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.15.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.15.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.15.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.15.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.15.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.15.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.15.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.15.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.15.input_layernorm.weight False
+base_model.model.language_model.model.layers.15.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.16.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.16.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.16.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.16.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.16.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.16.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.16.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.16.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.16.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.16.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.16.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.16.input_layernorm.weight False
+base_model.model.language_model.model.layers.16.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.17.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.17.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.17.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.17.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.17.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.17.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.17.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.17.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.17.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.17.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.17.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.17.input_layernorm.weight False
+base_model.model.language_model.model.layers.17.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.18.cross_attn_attn_gate False
+base_model.model.language_model.model.layers.18.cross_attn_mlp_gate False
+base_model.model.language_model.model.layers.18.cross_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.18.cross_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.18.cross_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.18.cross_attn.k_proj.weight False
+base_model.model.language_model.model.layers.18.cross_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.18.cross_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.18.cross_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.18.cross_attn.o_proj.weight False
+base_model.model.language_model.model.layers.18.cross_attn.q_norm.weight False
+base_model.model.language_model.model.layers.18.cross_attn.k_norm.weight False
+base_model.model.language_model.model.layers.18.input_layernorm.weight False
+base_model.model.language_model.model.layers.18.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.18.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.18.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.18.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.19.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.19.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.19.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.19.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.19.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.19.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.19.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.19.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.19.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.19.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.19.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.19.input_layernorm.weight False
+base_model.model.language_model.model.layers.19.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.20.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.20.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.20.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.20.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.20.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.20.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.20.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.20.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.20.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.20.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.20.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.20.input_layernorm.weight False
+base_model.model.language_model.model.layers.20.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.21.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.21.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.21.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.21.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.21.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.21.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.21.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.21.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.21.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.21.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.21.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.21.input_layernorm.weight False
+base_model.model.language_model.model.layers.21.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.22.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.22.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.22.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.22.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.22.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.22.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.22.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.22.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.22.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.22.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.22.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.22.input_layernorm.weight False
+base_model.model.language_model.model.layers.22.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.23.cross_attn_attn_gate False
+base_model.model.language_model.model.layers.23.cross_attn_mlp_gate False
+base_model.model.language_model.model.layers.23.cross_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.23.cross_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.23.cross_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.23.cross_attn.k_proj.weight False
+base_model.model.language_model.model.layers.23.cross_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.23.cross_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.23.cross_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.23.cross_attn.o_proj.weight False
+base_model.model.language_model.model.layers.23.cross_attn.q_norm.weight False
+base_model.model.language_model.model.layers.23.cross_attn.k_norm.weight False
+base_model.model.language_model.model.layers.23.input_layernorm.weight False
+base_model.model.language_model.model.layers.23.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.23.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.23.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.23.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.24.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.24.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.24.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.24.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.24.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.24.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.24.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.24.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.24.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.24.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.24.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.24.input_layernorm.weight False
+base_model.model.language_model.model.layers.24.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.25.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.25.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.25.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.25.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.25.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.25.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.25.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.25.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.25.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.25.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.25.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.25.input_layernorm.weight False
+base_model.model.language_model.model.layers.25.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.26.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.26.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.26.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.26.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.26.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.26.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.26.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.26.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.26.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.26.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.26.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.26.input_layernorm.weight False
+base_model.model.language_model.model.layers.26.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.27.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.27.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.27.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.27.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.27.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.27.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.27.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.27.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.27.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.27.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.27.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.27.input_layernorm.weight False
+base_model.model.language_model.model.layers.27.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.28.cross_attn_attn_gate False
+base_model.model.language_model.model.layers.28.cross_attn_mlp_gate False
+base_model.model.language_model.model.layers.28.cross_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.28.cross_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.28.cross_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.28.cross_attn.k_proj.weight False
+base_model.model.language_model.model.layers.28.cross_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.28.cross_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.28.cross_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.28.cross_attn.o_proj.weight False
+base_model.model.language_model.model.layers.28.cross_attn.q_norm.weight False
+base_model.model.language_model.model.layers.28.cross_attn.k_norm.weight False
+base_model.model.language_model.model.layers.28.input_layernorm.weight False
+base_model.model.language_model.model.layers.28.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.28.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.28.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.28.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.29.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.29.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.29.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.29.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.29.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.29.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.29.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.29.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.29.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.29.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.29.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.29.input_layernorm.weight False
+base_model.model.language_model.model.layers.29.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.30.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.30.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.30.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.30.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.30.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.30.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.30.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.30.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.30.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.30.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.30.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.30.input_layernorm.weight False
+base_model.model.language_model.model.layers.30.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.31.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.31.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.31.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.31.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.31.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.31.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.31.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.31.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.31.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.31.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.31.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.31.input_layernorm.weight False
+base_model.model.language_model.model.layers.31.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.32.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.32.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.32.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.32.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.32.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.32.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.32.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.32.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.32.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.32.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.32.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.32.input_layernorm.weight False
+base_model.model.language_model.model.layers.32.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.33.cross_attn_attn_gate False
+base_model.model.language_model.model.layers.33.cross_attn_mlp_gate False
+base_model.model.language_model.model.layers.33.cross_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.33.cross_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.33.cross_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.33.cross_attn.k_proj.weight False
+base_model.model.language_model.model.layers.33.cross_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.33.cross_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.33.cross_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.33.cross_attn.o_proj.weight False
+base_model.model.language_model.model.layers.33.cross_attn.q_norm.weight False
+base_model.model.language_model.model.layers.33.cross_attn.k_norm.weight False
+base_model.model.language_model.model.layers.33.input_layernorm.weight False
+base_model.model.language_model.model.layers.33.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.33.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.33.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.33.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.34.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.34.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.34.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.34.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.34.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.34.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.34.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.34.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.34.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.34.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.34.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.34.input_layernorm.weight False
+base_model.model.language_model.model.layers.34.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.35.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.35.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.35.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.35.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.35.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.35.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.35.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.35.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.35.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.35.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.35.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.35.input_layernorm.weight False
+base_model.model.language_model.model.layers.35.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.36.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.36.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.36.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.36.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.36.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.36.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.36.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.36.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.36.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.36.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.36.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.36.input_layernorm.weight False
+base_model.model.language_model.model.layers.36.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.37.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.37.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.37.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.37.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.37.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.37.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.37.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.37.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.37.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.37.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.37.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.37.input_layernorm.weight False
+base_model.model.language_model.model.layers.37.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.38.cross_attn_attn_gate False
+base_model.model.language_model.model.layers.38.cross_attn_mlp_gate False
+base_model.model.language_model.model.layers.38.cross_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.38.cross_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.38.cross_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.38.cross_attn.k_proj.weight False
+base_model.model.language_model.model.layers.38.cross_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.38.cross_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.38.cross_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.38.cross_attn.o_proj.weight False
+base_model.model.language_model.model.layers.38.cross_attn.q_norm.weight False
+base_model.model.language_model.model.layers.38.cross_attn.k_norm.weight False
+base_model.model.language_model.model.layers.38.input_layernorm.weight False
+base_model.model.language_model.model.layers.38.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.38.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.38.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.38.post_attention_layernorm.weight False
+base_model.model.language_model.model.layers.39.self_attn.q_proj.base_layer.weight False
+base_model.model.language_model.model.layers.39.self_attn.q_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.39.self_attn.q_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.39.self_attn.k_proj.weight False
+base_model.model.language_model.model.layers.39.self_attn.v_proj.base_layer.weight False
+base_model.model.language_model.model.layers.39.self_attn.v_proj.lora_A.default.weight True
+base_model.model.language_model.model.layers.39.self_attn.v_proj.lora_B.default.weight True
+base_model.model.language_model.model.layers.39.self_attn.o_proj.weight False
+base_model.model.language_model.model.layers.39.mlp.gate_proj.weight False
+base_model.model.language_model.model.layers.39.mlp.up_proj.weight False
+base_model.model.language_model.model.layers.39.mlp.down_proj.weight False
+base_model.model.language_model.model.layers.39.input_layernorm.weight False
+base_model.model.language_model.model.layers.39.post_attention_layernorm.weight False
+base_model.model.language_model.model.norm.weight False
+base_model.model.language_model.lm_head.weight False
+base_model.model.multi_modal_projector.weight False
+base_model.model.multi_modal_projector.bias False
+Epoch 1/3
+
+Training:   0%|          | 0/94532 [00:00<?, ?it/s]
+Training:   0%|          | 1/94532 [00:03<83:33:14,  3.18s/it]
+Training:   0%|          | 2/94532 [00:04<48:13:40,  1.84s/it]
+Training:   0%|          | 3/94532 [00:04<36:22:16,  1.39s/it]
+Training:   0%|          | 4/94532 [00:05<32:17:08,  1.23s/it]
+Training:   0%|          | 5/94532 [00:06<29:07:53,  1.11s/it]
+Training:   0%|          | 6/94532 [00:07<26:17:14,  1.00s/it]
+Training:   0%|          | 7/94532 [00:08<24:22:28,  1.08it/s]
+Training:   0%|          | 8/94532 [00:09<23:34:54,  1.11it/s]
+Training:   0%|          | 9/94532 [00:10<22:54:58,  1.15it/s]
+Training:   0%|          | 10/94532 [00:10<22:08:58,  1.19it/s]
+Training:   0%|          | 11/94532 [00:11<21:44:30,  1.21it/s]
+Training:   0%|          | 12/94532 [00:12<21:27:36,  1.22it/s]
+Training:   0%|          | 13/94532 [00:13<21:11:49,  1.24it/s]
+Training:   0%|          | 14/94532 [00:13<21:15:49,  1.23it/s]
+Training:   0%|          | 15/94532 [00:15<23:39:38,  1.11it/s]
+Training:   0%|          | 16/94532 [00:15<22:46:01,  1.15it/s]
+Training:   0%|          | 17/94532 [00:16<22:42:29,  1.16it/s]
+Training:   0%|          | 18/94532 [00:17<22:12:03,  1.18it/s]
+Training:   0%|          | 19/94532 [00:18<21:40:10,  1.21it/s]
+Training:   0%|          | 20/94532 [00:19<21:36:50,  1.21it/s]
+Training:   0%|          | 21/94532 [00:19<21:20:15,  1.23it/s]
+Training:   0%|          | 22/94532 [00:20<21:04:31,  1.25it/s]
+Training:   0%|          | 23/94532 [00:21<20:53:12,  1.26it/s]
+Training:   0%|          | 24/94532 [00:22<21:13:51,  1.24it/s]
+Training:   0%|          | 25/94532 [00:23<21:12:35,  1.24it/s]
+Training:   0%|          | 26/94532 [00:24<22:19:59,  1.18it/s]
+Training:   0%|          | 27/94532 [00:24<21:45:16,  1.21it/s]
+Training:   0%|          | 28/94532 [00:25<21:31:33,  1.22it/s]
+Training:   0%|          | 29/94532 [00:26<21:54:52,  1.20it/s]
+Training:   0%|          | 30/94532 [00:27<21:28:10,  1.22it/s]
+Training:   0%|          | 31/94532 [00:28<21:40:13,  1.21it/s]
+Training:   0%|          | 32/94532 [00:28<21:17:35,  1.23it/s]
+Training:   0%|          | 33/94532 [00:29<21:04:13,  1.25it/s]
+Training:   0%|          | 34/94532 [00:30<21:20:52,  1.23it/s]
+Training:   0%|          | 35/94532 [00:31<22:48:31,  1.15it/s]
+Training:   0%|          | 36/94532 [00:32<22:11:17,  1.18it/s]
+Training:   0%|          | 37/94532 [00:33<22:17:02,  1.18it/s]
+Training:   0%|          | 38/94532 [00:34<24:49:58,  1.06it/s]
+Training:   0%|          | 39/94532 [00:35<24:03:00,  1.09it/s]
+Training:   0%|          | 40/94532 [00:36<29:34:56,  1.13s/it]
+Training:   0%|          | 41/94532 [00:37<27:41:36,  1.06s/it]
+Training:   0%|          | 42/94532 [00:38<25:33:19,  1.03it/s]
+Training:   0%|          | 43/94532 [00:39<24:03:46,  1.09it/s]
+Training:   0%|          | 44/94532 [00:40<23:36:20,  1.11it/s]
+Training:   0%|          | 45/94532 [00:41<23:23:58,  1.12it/s]
+Training:   0%|          | 46/94532 [00:42<24:35:01,  1.07it/s]
+Training:   0%|          | 47/94532 [00:42<23:25:48,  1.12it/s]
+Training:   0%|          | 48/94532 [00:43<22:36:12,  1.16it/s]
+Training:   0%|          | 49/94532 [00:44<22:51:35,  1.15it/s]
+Training:   0%|          | 50/94532 [00:45<22:09:03,  1.18it/s]
+Training:   0%|          | 51/94532 [00:46<21:39:55,  1.21it/s]
+Training:   0%|          | 52/94532 [00:46<21:22:08,  1.23it/s]
+Training:   0%|          | 53/94532 [00:48<23:45:16,  1.10it/s]
+Training:   0%|          | 54/94532 [00:48<23:14:36,  1.13it/s]
+Training:   0%|          | 55/94532 [00:49<22:29:33,  1.17it/s]
+Training:   0%|          | 56/94532 [00:50<23:46:55,  1.10it/s]
+Training:   0%|          | 57/94532 [00:51<23:22:26,  1.12it/s]
+Training:   0%|          | 58/94532 [00:52<22:39:14,  1.16it/s]
+Training:   0%|          | 59/94532 [00:53<22:20:06,  1.17it/s]
+Training:   0%|          | 60/94532 [00:54<22:29:22,  1.17it/s]
+Training:   0%|          | 61/94532 [00:54<22:22:14,  1.17it/s]
+Training:   0%|          | 62/94532 [00:55<22:28:43,  1.17it/s]
+Training:   0%|          | 63/94532 [00:56<21:54:57,  1.20it/s]
+Training:   0%|          | 64/94532 [00:57<23:14:13,  1.13it/s]
+Training:   0%|          | 65/94532 [00:58<23:16:46,  1.13it/s]
+Training:   0%|          | 66/94532 [00:59<23:46:52,  1.10it/s]
+Training:   0%|          | 67/94532 [01:01<35:22:49,  1.35s/it]
+Training:   0%|          | 68/94532 [01:02<32:47:35,  1.25s/it]
+Training:   0%|          | 69/94532 [01:03<30:48:55,  1.17s/it]
+Training:   0%|          | 70/94532 [01:04<29:46:23,  1.13s/it]
+Training:   0%|          | 71/94532 [01:05<27:22:12,  1.04s/it]
+Training:   0%|          | 72/94532 [01:06<25:16:48,  1.04it/s]
+Training:   0%|          | 73/94532 [01:07<24:30:23,  1.07it/s]
+Training:   0%|          | 74/94532 [01:08<23:23:19,  1.12it/s]
+Training:   0%|          | 75/94532 [01:08<22:35:28,  1.16it/s]
+Training:   0%|          | 76/94532 [01:09<22:36:17,  1.16it/s]
+Training:   0%|          | 77/94532 [01:10<22:56:51,  1.14it/s]
+Training:   0%|          | 78/94532 [01:11<22:51:34,  1.15it/s]
+Training:   0%|          | 79/94532 [01:12<22:35:33,  1.16it/s]
+Training:   0%|          | 80/94532 [01:13<23:39:49,  1.11it/s]
+Training:   0%|          | 81/94532 [01:14<22:48:41,  1.15it/s]
+Training:   0%|          | 82/94532 [01:14<22:05:48,  1.19it/s]
+Training:   0%|          | 83/94532 [01:15<22:59:28,  1.14it/s]
+Training:   0%|          | 84/94532 [01:16<22:59:12,  1.14it/s]
+Training:   0%|          | 85/94532 [01:17<22:22:58,  1.17it/s]
+Training:   0%|          | 86/94532 [01:18<22:33:47,  1.16it/s]
+Training:   0%|          | 87/94532 [01:19<22:00:32,  1.19it/s]
+Training:   0%|          | 88/94532 [01:20<22:36:58,  1.16it/s]
+Training:   0%|          | 89/94532 [01:20<22:36:44,  1.16it/s]
+Training:   0%|          | 90/94532 [01:21<22:19:25,  1.18it/s]
+Training:   0%|          | 91/94532 [01:22<24:38:10,  1.06it/s]
+Training:   0%|          | 92/94532 [01:23<23:35:12,  1.11it/s]
+Training:   0%|          | 93/94532 [01:24<25:29:45,  1.03it/s]
+Training:   0%|          | 94/94532 [01:26<27:34:18,  1.05s/it]
+Training:   0%|          | 95/94532 [01:26<26:08:46,  1.00it/s]
+Training:   0%|          | 96/94532 [01:27<25:25:37,  1.03it/s]
+Training:   0%|          | 97/94532 [01:28<25:12:01,  1.04it/s]
+Training:   0%|          | 98/94532 [01:31<36:44:55,  1.40s/it]
+Training:   0%|          | 99/94532 [01:32<33:48:26,  1.29s/it]
+Training:   0%|          | 100/94532 [01:33<30:48:25,  1.17s/it]
+Training:   0%|          | 101/94532 [01:34<30:28:26,  1.16s/it]
+Training:   0%|          | 102/94532 [01:35<27:50:53,  1.06s/it]
+Training:   0%|          | 103/94532 [01:35<25:50:02,  1.02it/s]
+Training:   0%|          | 104/94532 [01:39<45:51:06,  1.75s/it]
+Training:   0%|          | 105/94532 [01:40<39:30:26,  1.51s/it]
+Training:   0%|          | 106/94532 [01:41<34:25:35,  1.31s/it]
+Training:   0%|          | 107/94532 [01:42<33:37:18,  1.28s/it]
+Training:   0%|          | 108/94532 [01:43<30:23:34,  1.16s/it]
+Training:   0%|          | 109/94532 [01:44<27:34:01,  1.05s/it]
+Training:   0%|          | 110/94532 [01:45<26:54:43,  1.03s/it]
+Training:   0%|          | 111/94532 [01:45<25:21:15,  1.03it/s]
+Training:   0%|          | 112/94532 [01:46<24:03:57,  1.09it/s]
+Training:   0%|          | 113/94532 [01:47<24:48:55,  1.06it/s]
+Training:   0%|          | 114/94532 [01:48<23:42:58,  1.11it/s]
+Training:   0%|          | 115/94532 [01:49<23:15:37,  1.13it/s]
+Training:   0%|          | 116/94532 [01:50<25:35:28,  1.02it/s]
+Training:   0%|          | 117/94532 [01:51<24:50:05,  1.06it/s]
+Training:   0%|          | 118/94532 [01:52<23:38:41,  1.11it/s]
+Training:   0%|          | 119/94532 [01:53<24:16:57,  1.08it/s]
+Training:   0%|          | 120/94532 [01:54<23:54:00,  1.10it/s]
+Training:   0%|          | 121/94532 [01:54<23:15:01,  1.13it/s]
+Training:   0%|          | 122/94532 [01:55<23:47:35,  1.10it/s]
+Training:   0%|          | 123/94532 [01:56<22:50:19,  1.15it/s]
+Training:   0%|          | 124/94532 [01:57<22:34:02,  1.16it/s]
+Training:   0%|          | 125/94532 [01:58<25:48:52,  1.02it/s]
+Training:   0%|          | 126/94532 [01:59<27:01:01,  1.03s/it]
+Training:   0%|          | 127/94532 [02:00<26:33:03,  1.01s/it]
+Training:   0%|          | 128/94532 [02:01<25:21:11,  1.03it/s]
+Training:   0%|          | 129/94532 [02:02<24:30:34,  1.07it/s]
+Training:   0%|          | 130/94532 [02:03<24:37:47,  1.06it/s]
+Training:   0%|          | 131/94532 [02:04<24:17:18,  1.08it/s]
+Training:   0%|          | 132/94532 [02:05<23:46:50,  1.10it/s]
+Training:   0%|          | 133/94532 [02:06<23:17:57,  1.13it/s]
+Training:   0%|          | 134/94532 [02:07<24:13:52,  1.08it/s]
+Training:   0%|          | 135/94532 [02:08<23:29:17,  1.12it/s]
+Training:   0%|          | 136/94532 [02:09<25:53:08,  1.01it/s]
+Training:   0%|          | 137/94532 [02:10<26:41:22,  1.02s/it]
+Training:   0%|          | 138/94532 [02:11<26:10:40,  1.00it/s]
+Training:   0%|          | 139/94532 [02:12<27:45:00,  1.06s/it]
+Training:   0%|          | 140/94532 [02:13<26:32:38,  1.01s/it]
+Training:   0%|          | 141/94532 [02:14<24:48:54,  1.06it/s]
+Training:   0%|          | 142/94532 [02:15<25:11:25,  1.04it/s]
+Training:   0%|          | 143/94532 [02:15<24:00:21,  1.09it/s]
+Training:   0%|          | 144/94532 [02:17<25:47:20,  1.02it/s]
+Training:   0%|          | 145/94532 [02:18<29:37:12,  1.13s/it]
+Training:   0%|          | 146/94532 [02:19<27:19:50,  1.04s/it]
+Training:   0%|          | 147/94532 [02:20<27:43:13,  1.06s/it]
+Training:   0%|          | 148/94532 [02:21<25:34:45,  1.02it/s]
+Training:   0%|          | 149/94532 [02:22<26:53:24,  1.03s/it]
+Training:   0%|          | 150/94532 [02:23<26:44:28,  1.02s/it]
+Training:   0%|          | 151/94532 [02:24<25:33:05,  1.03it/s]
+Training:   0%|          | 152/94532 [02:25<27:36:05,  1.05s/it]
+Training:   0%|          | 153/94532 [02:27<33:56:47,  1.29s/it]
+Training:   0%|          | 154/94532 [02:28<34:20:11,  1.31s/it]
+Training:   0%|          | 155/94532 [02:29<31:05:05,  1.19s/it]
+Training:   0%|          | 156/94532 [02:30<28:49:51,  1.10s/it]
+Training:   0%|          | 157/94532 [02:31<27:41:28,  1.06s/it]
+Training:   0%|          | 158/94532 [02:32<26:08:44,  1.00it/s]
+Training:   0%|          | 159/94532 [02:34<33:21:06,  1.27s/it]
+Training:   0%|          | 160/94532 [02:35<31:54:17,  1.22s/it]
+Training:   0%|          | 161/94532 [02:36<31:35:59,  1.21s/it]
+Training:   0%|          | 162/94532 [02:37<28:17:06,  1.08s/it]
+Training:   0%|          | 163/94532 [02:38<26:32:56,  1.01s/it]
+Training:   0%|          | 164/94532 [02:39<26:35:04,  1.01s/it]
+Training:   0%|          | 165/94532 [02:40<25:46:51,  1.02it/s]
+Training:   0%|          | 166/94532 [02:40<24:41:46,  1.06it/s]
+Training:   0%|          | 167/94532 [02:41<24:51:52,  1.05it/s]
+Training:   0%|          | 168/94532 [02:42<23:36:57,  1.11it/s]
+Training:   0%|          | 169/94532 [02:43<23:36:59,  1.11it/s]
+Training:   0%|          | 170/94532 [02:44<24:45:07,  1.06it/s]
+Training:   0%|          | 171/94532 [02:45<23:38:07,  1.11it/s]
+Training:   0%|          | 172/94532 [02:46<22:40:17,  1.16it/s]
+Training:   0%|          | 173/94532 [02:47<24:17:57,  1.08it/s]
+Training:   0%|          | 174/94532 [02:48<23:24:48,  1.12it/s]
+Training:   0%|          | 175/94532 [02:49<23:20:32,  1.12it/s]
+Training:   0%|          | 176/94532 [02:50<23:58:15,  1.09it/s]
+Training:   0%|          | 177/94532 [02:51<25:21:14,  1.03it/s]
+Training:   0%|          | 178/94532 [02:51<24:21:20,  1.08it/s]
+Training:   0%|          | 179/94532 [02:52<25:12:39,  1.04it/s]
+Training:   0%|          | 180/94532 [02:53<23:50:54,  1.10it/s]
+Training:   0%|          | 181/94532 [02:54<24:40:11,  1.06it/s]
+Training:   0%|          | 182/94532 [02:55<25:14:27,  1.04it/s]
+Training:   0%|          | 183/94532 [02:56<23:54:51,  1.10it/s]
+Training:   0%|          | 184/94532 [02:57<22:59:59,  1.14it/s]
+Training:   0%|          | 185/94532 [02:59<28:59:44,  1.11s/it]
+Training:   0%|          | 186/94532 [02:59<27:00:21,  1.03s/it]
+Training:   0%|          | 187/94532 [03:01<34:19:25,  1.31s/it]
+Training:   0%|          | 188/94532 [03:02<31:35:54,  1.21s/it]
+Training:   0%|          | 189/94532 [03:03<31:03:57,  1.19s/it]
+Training:   0%|          | 190/94532 [03:04<29:42:38,  1.13s/it]
+Training:   0%|          | 191/94532 [03:05<27:07:32,  1.04s/it]
+Training:   0%|          | 192/94532 [03:06<26:59:02,  1.03s/it]
+Training:   0%|          | 193/94532 [03:07<26:54:23,  1.03s/it]
+Training:   0%|          | 194/94532 [03:08<25:47:19,  1.02it/s]
+Training:   0%|          | 195/94532 [03:09<25:53:08,  1.01it/s]
+Training:   0%|          | 196/94532 [03:10<24:39:14,  1.06it/s]
+Training:   0%|          | 197/94532 [03:11<24:18:39,  1.08it/s]
+Training:   0%|          | 198/94532 [03:12<25:38:07,  1.02it/s]
+Training:   0%|          | 199/94532 [03:13<24:48:37,  1.06it/s]
+Training:   0%|          | 200/94532 [03:14<25:01:34,  1.05it/s]
+Training:   0%|          | 201/94532 [03:15<25:02:06,  1.05it/s]
+Training:   0%|          | 202/94532 [03:16<25:26:23,  1.03it/s]
+Training:   0%|          | 203/94532 [03:17<24:00:59,  1.09it/s]
+Training:   0%|          | 204/94532 [03:18<24:34:25,  1.07it/s]
+Training:   0%|          | 205/94532 [03:18<24:16:04,  1.08it/s]
+Training:   0%|          | 206/94532 [03:19<23:37:40,  1.11it/s]
+Training:   0%|          | 207/94532 [03:20<25:31:51,  1.03it/s]
+Training:   0%|          | 208/94532 [03:21<24:06:38,  1.09it/s]
+Training:   0%|          | 209/94532 [03:22<24:25:47,  1.07it/s]
+Training:   0%|          | 210/94532 [03:23<24:59:17,  1.05it/s]
+Training:   0%|          | 211/94532 [03:24<23:45:07,  1.10it/s]
+Training:   0%|          | 212/94532 [03:25<23:12:10,  1.13it/s]
+Training:   0%|          | 213/94532 [03:26<24:32:38,  1.07it/s]
+Training:   0%|          | 214/94532 [03:27<25:09:18,  1.04it/s]
+Training:   0%|          | 215/94532 [03:28<25:38:49,  1.02it/s]
+Training:   0%|          | 216/94532 [03:29<25:33:19,  1.03it/s]
+Training:   0%|          | 217/94532 [03:30<24:15:53,  1.08it/s]
+Training:   0%|          | 218/94532 [03:31<24:40:42,  1.06it/s]
+Training:   0%|          | 219/94532 [03:32<23:52:08,  1.10it/s]
+Training:   0%|          | 220/94532 [03:32<23:50:24,  1.10it/s]
+Training:   0%|          | 221/94532 [03:33<24:33:43,  1.07it/s]
+Training:   0%|          | 222/94532 [03:34<24:01:16,  1.09it/s]
+Training:   0%|          | 223/94532 [03:35<24:40:31,  1.06it/s]
+Training:   0%|          | 224/94532 [03:36<26:14:41,  1.00s/it]
+Training:   0%|          | 225/94532 [03:37<25:02:43,  1.05it/s]
+Training:   0%|          | 226/94532 [03:38<23:49:01,  1.10it/s]
+Training:   0%|          | 227/94532 [03:39<25:11:07,  1.04it/s]
+Training:   0%|          | 228/94532 [03:40<25:14:22,  1.04it/s]
+Training:   0%|          | 229/94532 [03:41<23:50:25,  1.10it/s]
+Training:   0%|          | 230/94532 [03:42<24:41:38,  1.06it/s]
+Training:   0%|          | 231/94532 [03:43<24:12:27,  1.08it/s]
+Training:   0%|          | 232/94532 [03:44<23:14:23,  1.13it/s]
+Training:   0%|          | 233/94532 [03:45<24:07:18,  1.09it/s]
+Training:   0%|          | 234/94532 [03:46<23:56:32,  1.09it/s]
+Training:   0%|          | 235/94532 [03:47<25:07:18,  1.04it/s]
+Training:   0%|          | 236/94532 [03:48<25:55:12,  1.01it/s]
+Training:   0%|          | 237/94532 [03:48<24:22:59,  1.07it/s]
+Training:   0%|          | 238/94532 [03:49<23:44:27,  1.10it/s]
+Training:   0%|          | 239/94532 [03:50<25:17:31,  1.04it/s]
+Training:   0%|          | 240/94532 [03:51<24:13:10,  1.08it/s]
+Training:   0%|          | 241/94532 [03:52<25:47:15,  1.02it/s]
+Training:   0%|          | 242/94532 [03:53<24:20:46,  1.08it/s]
+Training:   0%|          | 243/94532 [03:54<23:55:20,  1.09it/s]
+Training:   0%|          | 244/94532 [03:55<25:40:51,  1.02it/s]

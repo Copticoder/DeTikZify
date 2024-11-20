@@ -1,0 +1,38 @@
+{
+  "os": "macOS-14.4-arm64-arm-64bit",
+  "python": "3.9.20",
+  "startedAt": "2024-11-07T19:02:14.226437Z",
+  "program": "/Users/omarelherraoui/Documents/DeTikZify/detikzify/evaluate/ai_project.ipynb",
+  "git": {
+    "remote": "https://github.com/potamides/DeTikZify.git",
+    "commit": "e9534951d9fb9f6bdad1b1897a568bea4dee4afd"
+  },
+  "email": "oe2015@nyu.edu",
+  "root": "/Users/omarelherraoui/Documents/DeTikZify/detikzify/evaluate",
+  "host": "Omars-MacBook-Pro.local",
+  "username": "omarelherraoui",
+  "executable": "/Users/omarelherraoui/miniconda3/envs/gpu/bin/python",
+  "codePathLocal": "ai_project.ipynb",
+  "cpu_count": 14,
+  "cpu_count_logical": 14,
+  "disk": {
+    "/": {
+      "total": "994662584320",
+      "used": "144816074752"
+    }
+  },
+  "memory": {
+    "total": "38654705664"
+  },
+  "cpu": {
+    "count": 14,
+    "countLogical": 14
+  },
+  "apple": {
+    "name": "Apple M3 Max",
+    "ecpuCores": 4,
+    "pcpuCores": 10,
+    "gpuCores": 30,
+    "memoryGb": 36
+  }
+}

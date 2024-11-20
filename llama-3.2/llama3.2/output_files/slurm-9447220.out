@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "omar.py", line 4, in <module>
+    from transformers import AutoConfig, MllamaForCausalLM
+ImportError: cannot import name 'MllamaForCausalLM' from 'transformers' (/scratch/oe2015/conda-envs/splitnn5/lib/python3.7/site-packages/transformers/__init__.py)

@@ -1,0 +1,4 @@
+Epoch 1/3
+Average epoch loss: 0.0000
+
+Model saved to final_model_checkpoint_2048_captions_noquant_vision

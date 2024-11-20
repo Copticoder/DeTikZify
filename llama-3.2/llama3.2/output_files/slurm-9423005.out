@@ -1,0 +1,4 @@
+  File "/scratch/oe2015/ai_project/DeTikZify/detikzify/evaluate/train3.py", line 21
+    bnb_8bit_quant_type="nf4",
+    ^
+SyntaxError: invalid syntax

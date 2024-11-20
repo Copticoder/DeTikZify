@@ -1,0 +1,9 @@
+2024-11-09 21:43:03,743 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2024-11-09 21:43:03,831 - WARNING - The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
+cuda
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:02<00:09,  2.46s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:04<00:07,  2.38s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:07<00:04,  2.34s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:09<00:02,  2.35s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:10<00:00,  1.77s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:10<00:00,  2.03s/it]
+2024-11-09 21:43:18,214 - INFO - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2024-11-09 21:43:18,215 - INFO - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-11-09 21:43:18,215 - INFO - NumExpr defaulting to 8 threads.
+2024-11-09 21:43:18,541 - INFO - PyTorch version 2.3.0 available.
+slurmstepd: error: *** JOB 9402066 ON cn007 CANCELLED AT 2024-11-09T22:10:21 ***

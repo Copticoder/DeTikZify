@@ -1,0 +1,20 @@
+You are using a model of type mllama_text_model to instantiate a model of type mllama. This is not supported for all configurations of models and can yield errors.
+cuda
+Traceback (most recent call last):
+  File "/scratch/oe2015/ai_project/DeTikZify/detikzify/evaluate/run.py", line 34, in <module>
+    model = MllamaForConditionalGeneration.from_pretrained(
+  File "/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/transformers/modeling_utils.py", line 4097, in from_pretrained
+    model = cls(config, *model_args, **model_kwargs)
+  File "/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/transformers/models/mllama/modeling_mllama.py", line 1984, in __init__
+    self.language_model = MllamaForCausalLM._from_config(config.text_config)
+  File "/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/transformers/modeling_utils.py", line 1544, in _from_config
+    model = cls(config, **kwargs)
+  File "/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/transformers/models/mllama/modeling_mllama.py", line 1848, in __init__
+    self.model = MllamaTextModel._from_config(self.text_config, attn_implementation=config._attn_implementation)
+  File "/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/transformers/modeling_utils.py", line 1544, in _from_config
+    model = cls(config, **kwargs)
+  File "/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/transformers/models/mllama/modeling_mllama.py", line 1550, in __init__
+    self.rotary_emb = MllamaRotaryEmbedding(config=config)
+  File "/scratch/oe2015/conda-envs/greedy/lib/python3.9/site-packages/transformers/models/mllama/modeling_mllama.py", line 982, in __init__
+    self.rope_type = config.rope_scaling["rope_type"]
+TypeError: 'NoneType' object is not subscriptable

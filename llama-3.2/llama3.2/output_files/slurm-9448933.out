@@ -1,0 +1,14 @@
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+None of PyTorch, TensorFlow >= 2.0, or Flax have been found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Traceback (most recent call last):
+  File "/scratch/oe2015/ai_project/DeTikZify/detikzify/evaluate/omar.py", line 10, in <module>
+    full_model = MllamaForConditionalGeneration.from_pretrained(
+  File "/scratch/oe2015/conda-envs/llama/lib/python3.9/site-packages/transformers/utils/import_utils.py", line 1651, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/scratch/oe2015/conda-envs/llama/lib/python3.9/site-packages/transformers/utils/import_utils.py", line 1639, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+MllamaForConditionalGeneration requires the PyTorch library but it was not found in your environment. Checkout the instructions on the
+installation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.
+Please note that you may need to restart your runtime after installation.
+

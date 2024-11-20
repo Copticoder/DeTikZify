@@ -1,0 +1,45 @@
+2024-11-09 20:57:34,884 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2024-11-09 20:57:34,973 - WARNING - The model weights are not tied. Please use the `tie_weights` method before using the `infer_auto_device` function.
+cuda
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:02<00:08,  2.25s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:04<00:06,  2.26s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:06<00:04,  2.19s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:08<00:02,  2.24s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:09<00:00,  1.67s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:09<00:00,  1.92s/it]
+2024-11-09 20:57:48,745 - INFO - Note: detected 128 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2024-11-09 20:57:48,746 - INFO - Note: NumExpr detected 128 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2024-11-09 20:57:48,746 - INFO - NumExpr defaulting to 8 threads.
+2024-11-09 20:57:49,063 - INFO - PyTorch version 2.3.0 available.
+Dataset({
+    features: ['caption', 'code', 'image', 'pdf', 'uri', 'origin', 'date'],
+    num_rows: 94532
+})
+hello
+hello1
+hello2
+hello3
+Error: Could not locate LaTeX code markers. Retry generating the code.
+hello2
+hello3
+Error: Could not locate LaTeX code markers. Retry generating the code.
+hello2
+hello3
+Error: Could not locate LaTeX code markers. Retry generating the code.
+hello2
+hello3
+code block.
+assistant
+
+**Step 1: Identify the elements in the image**
+
+The image contains several rectangles with labels and lines connecting them. The main elements are:
+
+*   A large rectangle labeled $Q_1$.
+*   Three smaller rectangles inside $Q_1$, labeled $Q_{\frac{1}{2}}$, $Q_{r_0}$, and $Q_{\frac{r_0}{2}}$.
+*   Two smaller rectangles inside $Q_{\frac{r_0}{2}}$, labeled $Q_{\frac{r_0}{4}}$ and $\tilde Q^-_{\frac{r_0}{4}}$.
+*   A line connecting $Q_1$ to $Q_{\frac{1}{2}}$ with a label "Hölder continuity".
+*   A line connecting $Q_{r_0}$ to $Q^-_{r_0}$ with a label "Intermediate Value Lemma".
+*   A line connecting $Q_{\frac{r_0}{2}}$ to $\tilde Q^-_{\frac{r_0}{2}}$ with a label "Weak Harnack inequality".
+*   A line connecting $Q_{\frac{r_0}{4}}$ to $\tilde Q^-_{\frac{r_0}{4}}$ with a label "Not-so-Strong Harnack inequality".
+
+**Step 2: Write the TikZ code**
+Traceback (most recent call last):
+  File "run.py", line 191, in <module>
+    # Check if extraction was successful
+NameError: name 'tex_edit_distance' is not defined

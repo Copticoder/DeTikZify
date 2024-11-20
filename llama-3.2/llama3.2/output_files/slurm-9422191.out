@@ -1,0 +1,4 @@
+  File "/scratch/oe2015/ai_project/DeTikZify/detikzify/evaluate/train3.py", line 410
+    avg_epoch_loss = epoch_loss / len(train_dataloader)
+                                                       ^
+IndentationError: unindent does not match any outer indentation level
