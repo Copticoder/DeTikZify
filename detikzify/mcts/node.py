@@ -22,10 +22,14 @@ class Node:
 
     def update_win_value(self, value):
         self.win_value += value
+        if type(value) == int:
+            returns = value
+        else:
+            returns = value.score
         # DNG_MCTS parameters update   
         self.alpha_s += 0.5
-        self.beta_s += (self.lambda_s * (value.score - self.mu_s)**2 / (self.lambda_s + 1)) / 2
-        self.mu_s = (self.lambda_s * self.mu_s + value.score) / (self.lambda_s + 1)
+        self.beta_s += (self.lambda_s * (returns - self.mu_s)**2 / (self.lambda_s + 1)) / 2
+        self.mu_s = (self.lambda_s * self.mu_s + returns) / (self.lambda_s + 1)
         self.lambda_s += 1
         ######
         self.visits += 1
